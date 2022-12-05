@@ -118,6 +118,7 @@ Partial Class FrmMain
         Me.Guna2Separator8 = New Guna.UI2.WinForms.Guna2Separator()
         Me.Guna2HtmlLabel26 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel27 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
         Me.GunaPanel1.SuspendLayout()
         CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel1.SuspendLayout()
@@ -602,6 +603,7 @@ Partial Class FrmMain
         'Guna2GradientPanel1
         '
         Me.Guna2GradientPanel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2GradientPanel1.BorderRadius = 15
         Me.Guna2GradientPanel1.Controls.Add(Me.Guna2Separator3)
         Me.Guna2GradientPanel1.Controls.Add(Me.Guna2Separator2)
@@ -626,7 +628,8 @@ Partial Class FrmMain
         Me.Guna2GradientPanel1.Location = New System.Drawing.Point(617, 117)
         Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
         Me.Guna2GradientPanel1.ShadowDecoration.BorderRadius = 15
-        Me.Guna2GradientPanel1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2GradientPanel1.ShadowDecoration.Depth = 20
+        Me.Guna2GradientPanel1.ShadowDecoration.Enabled = True
         Me.Guna2GradientPanel1.Size = New System.Drawing.Size(294, 173)
         Me.Guna2GradientPanel1.TabIndex = 4
         '
@@ -672,6 +675,7 @@ Partial Class FrmMain
         'Guna2GradientPanel2
         '
         Me.Guna2GradientPanel2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2GradientPanel2.BorderRadius = 15
         Me.Guna2GradientPanel2.Controls.Add(Me.Guna2Separator6)
         Me.Guna2GradientPanel2.Controls.Add(Me.Label8)
@@ -685,7 +689,8 @@ Partial Class FrmMain
         Me.Guna2GradientPanel2.Location = New System.Drawing.Point(316, 117)
         Me.Guna2GradientPanel2.Name = "Guna2GradientPanel2"
         Me.Guna2GradientPanel2.ShadowDecoration.BorderRadius = 15
-        Me.Guna2GradientPanel2.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2GradientPanel2.ShadowDecoration.Depth = 20
+        Me.Guna2GradientPanel2.ShadowDecoration.Enabled = True
         Me.Guna2GradientPanel2.Size = New System.Drawing.Size(294, 173)
         Me.Guna2GradientPanel2.TabIndex = 4
         '
@@ -772,6 +777,7 @@ Partial Class FrmMain
         '
         'Guna2GradientPanel3
         '
+        Me.Guna2GradientPanel3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2GradientPanel3.BorderRadius = 15
         Me.Guna2GradientPanel3.Controls.Add(Me.Guna2Separator4)
         Me.Guna2GradientPanel3.Controls.Add(Me.Label7)
@@ -785,7 +791,8 @@ Partial Class FrmMain
         Me.Guna2GradientPanel3.Location = New System.Drawing.Point(16, 117)
         Me.Guna2GradientPanel3.Name = "Guna2GradientPanel3"
         Me.Guna2GradientPanel3.ShadowDecoration.BorderRadius = 15
-        Me.Guna2GradientPanel3.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2GradientPanel3.ShadowDecoration.Depth = 20
+        Me.Guna2GradientPanel3.ShadowDecoration.Enabled = True
         Me.Guna2GradientPanel3.Size = New System.Drawing.Size(294, 173)
         Me.Guna2GradientPanel3.TabIndex = 4
         '
@@ -913,7 +920,6 @@ Partial Class FrmMain
         Me.Guna2Panel3.ShadowDecoration.CustomizableEdges.TopRight = False
         Me.Guna2Panel3.ShadowDecoration.Depth = 25
         Me.Guna2Panel3.ShadowDecoration.Enabled = True
-        Me.Guna2Panel3.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
         Me.Guna2Panel3.Size = New System.Drawing.Size(893, 131)
         Me.Guna2Panel3.TabIndex = 5
         '
@@ -1327,6 +1333,7 @@ Partial Class FrmMain
         'Guna2Panel4
         '
         Me.Guna2Panel4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Guna2Panel4.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Panel4.BorderRadius = 15
         Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel27)
         Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel25)
@@ -1342,6 +1349,8 @@ Partial Class FrmMain
         Me.Guna2Panel4.FillColor = System.Drawing.Color.White
         Me.Guna2Panel4.Location = New System.Drawing.Point(18, 478)
         Me.Guna2Panel4.Name = "Guna2Panel4"
+        Me.Guna2Panel4.ShadowDecoration.Depth = 20
+        Me.Guna2Panel4.ShadowDecoration.Enabled = True
         Me.Guna2Panel4.Size = New System.Drawing.Size(271, 180)
         Me.Guna2Panel4.TabIndex = 6
         '
@@ -1468,12 +1477,27 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel27.TabIndex = 6
         Me.Guna2HtmlLabel27.Text = "Name"
         '
+        'Guna2Panel5
+        '
+        Me.Guna2Panel5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2Panel5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel5.BorderRadius = 15
+        Me.Guna2Panel5.FillColor = System.Drawing.Color.White
+        Me.Guna2Panel5.Location = New System.Drawing.Point(299, 478)
+        Me.Guna2Panel5.Name = "Guna2Panel5"
+        Me.Guna2Panel5.ShadowDecoration.Depth = 20
+        Me.Guna2Panel5.ShadowDecoration.Enabled = True
+        Me.Guna2Panel5.Size = New System.Drawing.Size(610, 180)
+        Me.Guna2Panel5.TabIndex = 7
+        '
         'FrmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(1117, 670)
+        Me.Controls.Add(Me.Guna2Panel5)
         Me.Controls.Add(Me.Guna2Panel4)
         Me.Controls.Add(Me.Guna2Panel3)
         Me.Controls.Add(Me.Guna2GradientPanel3)
@@ -1603,4 +1627,5 @@ Partial Class FrmMain
     Friend WithEvents Guna2HtmlLabel27 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel26 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2Separator8 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
 End Class
