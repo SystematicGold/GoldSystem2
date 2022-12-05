@@ -77,3 +77,9 @@ C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.xml
 C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.pdb
 C:\Source Code\source Code\GoldSystem\bin\Debug\Guna.UI2.dll
 D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Guna.UI2.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Newtonsoft.Json.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\RestSharp.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\RestSharp.Serializers.Newtonsoft.Json.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Newtonsoft.Json.pdb
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Newtonsoft.Json.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\RestSharp.xml

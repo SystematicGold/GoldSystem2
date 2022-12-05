@@ -27,10 +27,13 @@ Partial Class FrmMain
     Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
     Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
     Me.Guna2VSeparator1 = New Guna.UI2.WinForms.Guna2VSeparator()
+    Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
     Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2VSeparator2 = New Guna.UI2.WinForms.Guna2VSeparator()
+    Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
     Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
     Me.Guna2NotificationPaint1 = New Guna.UI2.WinForms.Guna2NotificationPaint(Me.components)
     Me.Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -111,56 +114,56 @@ Partial Class FrmMain
     Me.Label28 = New System.Windows.Forms.Label()
     Me.Guna2HtmlLabel21 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
-    Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
-    Me.GunaPictureBox1 = New Guna.UI.WinForms.GunaPictureBox()
-    Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-    Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
-    Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
-    Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
+    Me.Guna2VSeparator3 = New Guna.UI2.WinForms.Guna2VSeparator()
     Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-    Me.Guna2HtmlLabel28 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
     Me.Guna2HtmlLabel29 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2ProgressBar5 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar6 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar7 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar8 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar9 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar10 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar11 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar12 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar13 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar14 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar15 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar16 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar17 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar18 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar19 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar20 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar21 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar22 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar23 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar24 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar25 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar26 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar27 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2ProgressBar28 = New Guna.UI2.WinForms.Guna2ProgressBar()
-    Me.Guna2HtmlLabel30 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2HtmlLabel31 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel41 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel40 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel38 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel37 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel35 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel39 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel34 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel36 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2HtmlLabel32 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2HtmlLabel33 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2HtmlLabel34 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2HtmlLabel35 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2HtmlLabel36 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2HtmlLabel37 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2HtmlLabel38 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2HtmlLabel39 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2HtmlLabel40 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2HtmlLabel41 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2HtmlLabel42 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel31 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel30 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2HtmlLabel43 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2VSeparator3 = New Guna.UI2.WinForms.Guna2VSeparator()
+    Me.Guna2HtmlLabel42 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2HtmlLabel28 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+    Me.Guna2ProgressBar28 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar27 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar20 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar19 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar26 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar12 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar18 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar25 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar11 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar17 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar24 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar8 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar16 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar23 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar10 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar15 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar22 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar7 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar14 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar21 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar9 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar13 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar6 = New Guna.UI2.WinForms.Guna2ProgressBar()
+    Me.Guna2ProgressBar5 = New Guna.UI2.WinForms.Guna2ProgressBar()
     Me.Guna2Separator9 = New Guna.UI2.WinForms.Guna2Separator()
+    Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
+    Me.GunaPictureBox1 = New Guna.UI.WinForms.GunaPictureBox()
+    Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+    Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
     Me.Guna2Panel1.SuspendLayout()
+    CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
     Me.Guna2Panel2.SuspendLayout()
     Me.Guna2GradientPanel1.SuspendLayout()
     Me.Guna2GradientPanel2.SuspendLayout()
@@ -170,7 +173,6 @@ Partial Class FrmMain
     Me.Guna2Panel5.SuspendLayout()
     Me.Guna2Panel6.SuspendLayout()
     CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-    CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
     Me.SuspendLayout()
     '
     'Guna2GradientButton2
@@ -250,6 +252,27 @@ Partial Class FrmMain
     Me.Guna2VSeparator1.Size = New System.Drawing.Size(10, 26)
     Me.Guna2VSeparator1.TabIndex = 2
     '
+    'Guna2CircleButton2
+    '
+    Me.Guna2CircleButton2.Animated = True
+    Me.Guna2CircleButton2.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2CircleButton2.BorderColor = System.Drawing.Color.White
+    Me.Guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2CircleButton2.FillColor = System.Drawing.Color.White
+    Me.Guna2CircleButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+    Me.Guna2CircleButton2.ForeColor = System.Drawing.Color.White
+    Me.Guna2CircleButton2.Image = Global.GoldSystem.My.Resources.Resources.notification_90px1
+    Me.Guna2CircleButton2.ImageSize = New System.Drawing.Size(28, 28)
+    Me.Guna2CircleButton2.Location = New System.Drawing.Point(71, 3)
+    Me.Guna2CircleButton2.Name = "Guna2CircleButton2"
+    Me.Guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+    Me.Guna2CircleButton2.Size = New System.Drawing.Size(37, 37)
+    Me.Guna2CircleButton2.TabIndex = 2
+    Me.Guna2CircleButton2.UseTransparentBackground = True
+    '
     'Guna2HtmlLabel2
     '
     Me.Guna2HtmlLabel2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -281,6 +304,19 @@ Partial Class FrmMain
     Me.Guna2VSeparator2.Size = New System.Drawing.Size(10, 26)
     Me.Guna2VSeparator2.TabIndex = 2
     '
+    'Guna2CirclePictureBox1
+    '
+    Me.Guna2CirclePictureBox1.FillColor = System.Drawing.Color.Black
+    Me.Guna2CirclePictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Profile_Male_PNG
+    Me.Guna2CirclePictureBox1.ImageRotate = 0!
+    Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(126, 3)
+    Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
+    Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+    Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(37, 37)
+    Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+    Me.Guna2CirclePictureBox1.TabIndex = 2
+    Me.Guna2CirclePictureBox1.TabStop = False
+    '
     'Guna2HtmlLabel3
     '
     Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
@@ -291,6 +327,27 @@ Partial Class FrmMain
     Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(87, 18)
     Me.Guna2HtmlLabel3.TabIndex = 0
     Me.Guna2HtmlLabel3.Text = "Admin Admin"
+    '
+    'Guna2CircleButton1
+    '
+    Me.Guna2CircleButton1.Animated = True
+    Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2CircleButton1.BorderColor = System.Drawing.Color.White
+    Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2CircleButton1.FillColor = System.Drawing.Color.White
+    Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+    Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
+    Me.Guna2CircleButton1.Image = Global.GoldSystem.My.Resources.Resources.settings_90px
+    Me.Guna2CircleButton1.ImageSize = New System.Drawing.Size(28, 28)
+    Me.Guna2CircleButton1.Location = New System.Drawing.Point(12, 3)
+    Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
+    Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+    Me.Guna2CircleButton1.Size = New System.Drawing.Size(37, 37)
+    Me.Guna2CircleButton1.TabIndex = 2
+    Me.Guna2CircleButton1.UseTransparentBackground = True
     '
     'Guna2NotificationPaint1
     '
@@ -846,6 +903,7 @@ Partial Class FrmMain
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
     Me.Guna2Panel3.BackColor = System.Drawing.Color.Transparent
     Me.Guna2Panel3.BorderRadius = 15
+    Me.Guna2Panel3.Controls.Add(Me.WebBrowser1)
     Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar5)
     Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar4)
     Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar3)
@@ -1432,6 +1490,680 @@ Partial Class FrmMain
     Me.Guna2Panel5.Size = New System.Drawing.Size(610, 198)
     Me.Guna2Panel5.TabIndex = 7
     '
+    'Guna2VSeparator3
+    '
+    Me.Guna2VSeparator3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2VSeparator3.FillThickness = 2
+    Me.Guna2VSeparator3.Location = New System.Drawing.Point(69, 51)
+    Me.Guna2VSeparator3.Name = "Guna2VSeparator3"
+    Me.Guna2VSeparator3.Size = New System.Drawing.Size(10, 127)
+    Me.Guna2VSeparator3.TabIndex = 2
+    '
+    'Guna2Button5
+    '
+    Me.Guna2Button5.Animated = True
+    Me.Guna2Button5.BorderRadius = 5
+    Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2Button5.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+    Me.Guna2Button5.ForeColor = System.Drawing.Color.White
+    Me.Guna2Button5.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
+    Me.Guna2Button5.Location = New System.Drawing.Point(188, 11)
+    Me.Guna2Button5.Name = "Guna2Button5"
+    Me.Guna2Button5.Size = New System.Drawing.Size(30, 30)
+    Me.Guna2Button5.TabIndex = 0
+    Me.Guna2Button5.UseTransparentBackground = True
+    '
+    'Guna2Button4
+    '
+    Me.Guna2Button4.Animated = True
+    Me.Guna2Button4.BorderRadius = 5
+    Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2Button4.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(242, Byte), Integer))
+    Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+    Me.Guna2Button4.ForeColor = System.Drawing.Color.White
+    Me.Guna2Button4.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
+    Me.Guna2Button4.Location = New System.Drawing.Point(23, 11)
+    Me.Guna2Button4.Name = "Guna2Button4"
+    Me.Guna2Button4.Size = New System.Drawing.Size(30, 30)
+    Me.Guna2Button4.TabIndex = 0
+    Me.Guna2Button4.UseTransparentBackground = True
+    '
+    'Guna2HtmlLabel29
+    '
+    Me.Guna2HtmlLabel29.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel29.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel29.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel29.Location = New System.Drawing.Point(224, 19)
+    Me.Guna2HtmlLabel29.Name = "Guna2HtmlLabel29"
+    Me.Guna2HtmlLabel29.Size = New System.Drawing.Size(35, 18)
+    Me.Guna2HtmlLabel29.TabIndex = 0
+    Me.Guna2HtmlLabel29.Text = "2021"
+    '
+    'Guna2HtmlLabel41
+    '
+    Me.Guna2HtmlLabel41.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel41.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel41.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel41.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel41.Location = New System.Drawing.Point(536, 176)
+    Me.Guna2HtmlLabel41.Name = "Guna2HtmlLabel41"
+    Me.Guna2HtmlLabel41.Size = New System.Drawing.Size(19, 18)
+    Me.Guna2HtmlLabel41.TabIndex = 0
+    Me.Guna2HtmlLabel41.Text = "12"
+    '
+    'Guna2HtmlLabel40
+    '
+    Me.Guna2HtmlLabel40.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel40.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel40.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel40.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel40.Location = New System.Drawing.Point(495, 176)
+    Me.Guna2HtmlLabel40.Name = "Guna2HtmlLabel40"
+    Me.Guna2HtmlLabel40.Size = New System.Drawing.Size(19, 18)
+    Me.Guna2HtmlLabel40.TabIndex = 0
+    Me.Guna2HtmlLabel40.Text = "11"
+    '
+    'Guna2HtmlLabel38
+    '
+    Me.Guna2HtmlLabel38.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel38.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel38.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel38.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel38.Location = New System.Drawing.Point(418, 176)
+    Me.Guna2HtmlLabel38.Name = "Guna2HtmlLabel38"
+    Me.Guna2HtmlLabel38.Size = New System.Drawing.Size(11, 18)
+    Me.Guna2HtmlLabel38.TabIndex = 0
+    Me.Guna2HtmlLabel38.Text = "9"
+    '
+    'Guna2HtmlLabel37
+    '
+    Me.Guna2HtmlLabel37.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel37.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel37.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel37.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel37.Location = New System.Drawing.Point(377, 176)
+    Me.Guna2HtmlLabel37.Name = "Guna2HtmlLabel37"
+    Me.Guna2HtmlLabel37.Size = New System.Drawing.Size(11, 18)
+    Me.Guna2HtmlLabel37.TabIndex = 0
+    Me.Guna2HtmlLabel37.Text = "8"
+    '
+    'Guna2HtmlLabel35
+    '
+    Me.Guna2HtmlLabel35.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel35.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel35.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel35.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel35.Location = New System.Drawing.Point(294, 176)
+    Me.Guna2HtmlLabel35.Name = "Guna2HtmlLabel35"
+    Me.Guna2HtmlLabel35.Size = New System.Drawing.Size(11, 18)
+    Me.Guna2HtmlLabel35.TabIndex = 0
+    Me.Guna2HtmlLabel35.Text = "6"
+    '
+    'Guna2HtmlLabel39
+    '
+    Me.Guna2HtmlLabel39.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel39.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel39.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel39.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel39.Location = New System.Drawing.Point(455, 176)
+    Me.Guna2HtmlLabel39.Name = "Guna2HtmlLabel39"
+    Me.Guna2HtmlLabel39.Size = New System.Drawing.Size(19, 18)
+    Me.Guna2HtmlLabel39.TabIndex = 0
+    Me.Guna2HtmlLabel39.Text = "10"
+    '
+    'Guna2HtmlLabel34
+    '
+    Me.Guna2HtmlLabel34.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel34.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel34.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel34.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel34.Location = New System.Drawing.Point(253, 176)
+    Me.Guna2HtmlLabel34.Name = "Guna2HtmlLabel34"
+    Me.Guna2HtmlLabel34.Size = New System.Drawing.Size(11, 18)
+    Me.Guna2HtmlLabel34.TabIndex = 0
+    Me.Guna2HtmlLabel34.Text = "5"
+    '
+    'Guna2HtmlLabel36
+    '
+    Me.Guna2HtmlLabel36.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel36.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel36.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel36.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel36.Location = New System.Drawing.Point(337, 176)
+    Me.Guna2HtmlLabel36.Name = "Guna2HtmlLabel36"
+    Me.Guna2HtmlLabel36.Size = New System.Drawing.Size(11, 18)
+    Me.Guna2HtmlLabel36.TabIndex = 0
+    Me.Guna2HtmlLabel36.Text = "7"
+    '
+    'Guna2HtmlLabel32
+    '
+    Me.Guna2HtmlLabel32.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel32.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel32.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel32.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel32.Location = New System.Drawing.Point(171, 176)
+    Me.Guna2HtmlLabel32.Name = "Guna2HtmlLabel32"
+    Me.Guna2HtmlLabel32.Size = New System.Drawing.Size(11, 18)
+    Me.Guna2HtmlLabel32.TabIndex = 0
+    Me.Guna2HtmlLabel32.Text = "3"
+    '
+    'Guna2HtmlLabel33
+    '
+    Me.Guna2HtmlLabel33.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel33.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel33.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel33.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel33.Location = New System.Drawing.Point(213, 176)
+    Me.Guna2HtmlLabel33.Name = "Guna2HtmlLabel33"
+    Me.Guna2HtmlLabel33.Size = New System.Drawing.Size(11, 18)
+    Me.Guna2HtmlLabel33.TabIndex = 0
+    Me.Guna2HtmlLabel33.Text = "4"
+    '
+    'Guna2HtmlLabel31
+    '
+    Me.Guna2HtmlLabel31.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel31.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel31.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel31.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel31.Location = New System.Drawing.Point(130, 176)
+    Me.Guna2HtmlLabel31.Name = "Guna2HtmlLabel31"
+    Me.Guna2HtmlLabel31.Size = New System.Drawing.Size(11, 18)
+    Me.Guna2HtmlLabel31.TabIndex = 0
+    Me.Guna2HtmlLabel31.Text = "2"
+    '
+    'Guna2HtmlLabel30
+    '
+    Me.Guna2HtmlLabel30.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel30.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel30.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel30.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel30.Location = New System.Drawing.Point(90, 176)
+    Me.Guna2HtmlLabel30.Name = "Guna2HtmlLabel30"
+    Me.Guna2HtmlLabel30.Size = New System.Drawing.Size(11, 18)
+    Me.Guna2HtmlLabel30.TabIndex = 0
+    Me.Guna2HtmlLabel30.Text = "1"
+    '
+    'Guna2HtmlLabel43
+    '
+    Me.Guna2HtmlLabel43.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel43.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel43.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel43.Location = New System.Drawing.Point(16, 111)
+    Me.Guna2HtmlLabel43.Name = "Guna2HtmlLabel43"
+    Me.Guna2HtmlLabel43.Size = New System.Drawing.Size(51, 18)
+    Me.Guna2HtmlLabel43.TabIndex = 0
+    Me.Guna2HtmlLabel43.Text = "Months"
+    '
+    'Guna2HtmlLabel42
+    '
+    Me.Guna2HtmlLabel42.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2HtmlLabel42.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel42.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel42.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel42.Location = New System.Drawing.Point(16, 173)
+    Me.Guna2HtmlLabel42.Name = "Guna2HtmlLabel42"
+    Me.Guna2HtmlLabel42.Size = New System.Drawing.Size(51, 18)
+    Me.Guna2HtmlLabel42.TabIndex = 0
+    Me.Guna2HtmlLabel42.Text = "Months"
+    '
+    'Guna2HtmlLabel28
+    '
+    Me.Guna2HtmlLabel28.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2HtmlLabel28.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+    Me.Guna2HtmlLabel28.ForeColor = System.Drawing.Color.Gray
+    Me.Guna2HtmlLabel28.Location = New System.Drawing.Point(59, 19)
+    Me.Guna2HtmlLabel28.Name = "Guna2HtmlLabel28"
+    Me.Guna2HtmlLabel28.Size = New System.Drawing.Size(35, 18)
+    Me.Guna2HtmlLabel28.TabIndex = 0
+    Me.Guna2HtmlLabel28.Text = "2022"
+    '
+    'Guna2ProgressBar28
+    '
+    Me.Guna2ProgressBar28.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar28.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar28.Location = New System.Drawing.Point(543, 93)
+    Me.Guna2ProgressBar28.Name = "Guna2ProgressBar28"
+    Me.Guna2ProgressBar28.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar28.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar28.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar28.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar28.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar28.Size = New System.Drawing.Size(18, 82)
+    Me.Guna2ProgressBar28.TabIndex = 1
+    Me.Guna2ProgressBar28.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar28.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar28.Value = 50
+    '
+    'Guna2ProgressBar27
+    '
+    Me.Guna2ProgressBar27.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar27.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar27.Location = New System.Drawing.Point(526, 120)
+    Me.Guna2ProgressBar27.Name = "Guna2ProgressBar27"
+    Me.Guna2ProgressBar27.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar27.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar27.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar27.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar27.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar27.Size = New System.Drawing.Size(18, 55)
+    Me.Guna2ProgressBar27.TabIndex = 1
+    Me.Guna2ProgressBar27.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar27.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar27.Value = 50
+    '
+    'Guna2ProgressBar20
+    '
+    Me.Guna2ProgressBar20.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar20.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar20.Location = New System.Drawing.Point(380, 68)
+    Me.Guna2ProgressBar20.Name = "Guna2ProgressBar20"
+    Me.Guna2ProgressBar20.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar20.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar20.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar20.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar20.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar20.Size = New System.Drawing.Size(18, 107)
+    Me.Guna2ProgressBar20.TabIndex = 1
+    Me.Guna2ProgressBar20.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar20.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar20.Value = 50
+    '
+    'Guna2ProgressBar19
+    '
+    Me.Guna2ProgressBar19.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar19.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar19.Location = New System.Drawing.Point(363, 93)
+    Me.Guna2ProgressBar19.Name = "Guna2ProgressBar19"
+    Me.Guna2ProgressBar19.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar19.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar19.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar19.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar19.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar19.Size = New System.Drawing.Size(18, 82)
+    Me.Guna2ProgressBar19.TabIndex = 1
+    Me.Guna2ProgressBar19.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar19.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar19.Value = 50
+    '
+    'Guna2ProgressBar26
+    '
+    Me.Guna2ProgressBar26.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar26.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar26.Location = New System.Drawing.Point(461, 77)
+    Me.Guna2ProgressBar26.Name = "Guna2ProgressBar26"
+    Me.Guna2ProgressBar26.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar26.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar26.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar26.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar26.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar26.Size = New System.Drawing.Size(18, 98)
+    Me.Guna2ProgressBar26.TabIndex = 1
+    Me.Guna2ProgressBar26.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar26.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar26.Value = 50
+    '
+    'Guna2ProgressBar12
+    '
+    Me.Guna2ProgressBar12.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar12.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar12.Location = New System.Drawing.Point(217, 77)
+    Me.Guna2ProgressBar12.Name = "Guna2ProgressBar12"
+    Me.Guna2ProgressBar12.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar12.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar12.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar12.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar12.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar12.Size = New System.Drawing.Size(18, 98)
+    Me.Guna2ProgressBar12.TabIndex = 1
+    Me.Guna2ProgressBar12.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar12.Value = 50
+    '
+    'Guna2ProgressBar18
+    '
+    Me.Guna2ProgressBar18.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar18.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar18.Location = New System.Drawing.Point(298, 120)
+    Me.Guna2ProgressBar18.Name = "Guna2ProgressBar18"
+    Me.Guna2ProgressBar18.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar18.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar18.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar18.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar18.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar18.Size = New System.Drawing.Size(18, 55)
+    Me.Guna2ProgressBar18.TabIndex = 1
+    Me.Guna2ProgressBar18.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar18.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar18.Value = 50
+    '
+    'Guna2ProgressBar25
+    '
+    Me.Guna2ProgressBar25.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar25.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar25.Location = New System.Drawing.Point(503, 111)
+    Me.Guna2ProgressBar25.Name = "Guna2ProgressBar25"
+    Me.Guna2ProgressBar25.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar25.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar25.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar25.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar25.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar25.Size = New System.Drawing.Size(18, 64)
+    Me.Guna2ProgressBar25.TabIndex = 1
+    Me.Guna2ProgressBar25.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar25.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar25.Value = 50
+    '
+    'Guna2ProgressBar11
+    '
+    Me.Guna2ProgressBar11.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar11.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar11.Location = New System.Drawing.Point(200, 132)
+    Me.Guna2ProgressBar11.Name = "Guna2ProgressBar11"
+    Me.Guna2ProgressBar11.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar11.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar11.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar11.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar11.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar11.Size = New System.Drawing.Size(18, 43)
+    Me.Guna2ProgressBar11.TabIndex = 1
+    Me.Guna2ProgressBar11.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar11.Value = 50
+    '
+    'Guna2ProgressBar17
+    '
+    Me.Guna2ProgressBar17.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar17.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar17.Location = New System.Drawing.Point(340, 111)
+    Me.Guna2ProgressBar17.Name = "Guna2ProgressBar17"
+    Me.Guna2ProgressBar17.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar17.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar17.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar17.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar17.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar17.Size = New System.Drawing.Size(18, 64)
+    Me.Guna2ProgressBar17.TabIndex = 1
+    Me.Guna2ProgressBar17.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar17.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar17.Value = 50
+    '
+    'Guna2ProgressBar24
+    '
+    Me.Guna2ProgressBar24.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar24.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar24.Location = New System.Drawing.Point(444, 104)
+    Me.Guna2ProgressBar24.Name = "Guna2ProgressBar24"
+    Me.Guna2ProgressBar24.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar24.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar24.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar24.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar24.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar24.Size = New System.Drawing.Size(18, 71)
+    Me.Guna2ProgressBar24.TabIndex = 1
+    Me.Guna2ProgressBar24.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar24.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar24.Value = 50
+    '
+    'Guna2ProgressBar8
+    '
+    Me.Guna2ProgressBar8.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar8.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar8.Location = New System.Drawing.Point(136, 111)
+    Me.Guna2ProgressBar8.Name = "Guna2ProgressBar8"
+    Me.Guna2ProgressBar8.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar8.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar8.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar8.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar8.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar8.Size = New System.Drawing.Size(18, 64)
+    Me.Guna2ProgressBar8.TabIndex = 1
+    Me.Guna2ProgressBar8.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar8.Value = 50
+    '
+    'Guna2ProgressBar16
+    '
+    Me.Guna2ProgressBar16.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar16.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar16.Location = New System.Drawing.Point(281, 147)
+    Me.Guna2ProgressBar16.Name = "Guna2ProgressBar16"
+    Me.Guna2ProgressBar16.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar16.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar16.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar16.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar16.Size = New System.Drawing.Size(18, 28)
+    Me.Guna2ProgressBar16.TabIndex = 1
+    Me.Guna2ProgressBar16.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar16.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar16.Value = 50
+    '
+    'Guna2ProgressBar23
+    '
+    Me.Guna2ProgressBar23.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar23.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar23.Location = New System.Drawing.Point(486, 93)
+    Me.Guna2ProgressBar23.Name = "Guna2ProgressBar23"
+    Me.Guna2ProgressBar23.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar23.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar23.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar23.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar23.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar23.Size = New System.Drawing.Size(18, 82)
+    Me.Guna2ProgressBar23.TabIndex = 1
+    Me.Guna2ProgressBar23.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar23.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar23.Value = 50
+    '
+    'Guna2ProgressBar10
+    '
+    Me.Guna2ProgressBar10.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar10.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar10.Location = New System.Drawing.Point(177, 104)
+    Me.Guna2ProgressBar10.Name = "Guna2ProgressBar10"
+    Me.Guna2ProgressBar10.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar10.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar10.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar10.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar10.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar10.Size = New System.Drawing.Size(18, 71)
+    Me.Guna2ProgressBar10.TabIndex = 1
+    Me.Guna2ProgressBar10.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar10.Value = 50
+    '
+    'Guna2ProgressBar15
+    '
+    Me.Guna2ProgressBar15.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar15.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar15.Location = New System.Drawing.Point(323, 147)
+    Me.Guna2ProgressBar15.Name = "Guna2ProgressBar15"
+    Me.Guna2ProgressBar15.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar15.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar15.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar15.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar15.Size = New System.Drawing.Size(18, 28)
+    Me.Guna2ProgressBar15.TabIndex = 1
+    Me.Guna2ProgressBar15.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar15.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar15.Value = 50
+    '
+    'Guna2ProgressBar22
+    '
+    Me.Guna2ProgressBar22.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar22.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar22.Location = New System.Drawing.Point(421, 77)
+    Me.Guna2ProgressBar22.Name = "Guna2ProgressBar22"
+    Me.Guna2ProgressBar22.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar22.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar22.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar22.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar22.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar22.Size = New System.Drawing.Size(18, 98)
+    Me.Guna2ProgressBar22.TabIndex = 1
+    Me.Guna2ProgressBar22.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar22.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar22.Value = 50
+    '
+    'Guna2ProgressBar7
+    '
+    Me.Guna2ProgressBar7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar7.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar7.Location = New System.Drawing.Point(119, 65)
+    Me.Guna2ProgressBar7.Name = "Guna2ProgressBar7"
+    Me.Guna2ProgressBar7.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar7.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar7.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar7.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar7.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar7.Size = New System.Drawing.Size(18, 110)
+    Me.Guna2ProgressBar7.TabIndex = 1
+    Me.Guna2ProgressBar7.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar7.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar7.Value = 50
+    '
+    'Guna2ProgressBar14
+    '
+    Me.Guna2ProgressBar14.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar14.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar14.Location = New System.Drawing.Point(258, 93)
+    Me.Guna2ProgressBar14.Name = "Guna2ProgressBar14"
+    Me.Guna2ProgressBar14.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar14.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar14.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar14.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar14.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar14.Size = New System.Drawing.Size(18, 82)
+    Me.Guna2ProgressBar14.TabIndex = 1
+    Me.Guna2ProgressBar14.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar14.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar14.Value = 50
+    '
+    'Guna2ProgressBar21
+    '
+    Me.Guna2ProgressBar21.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar21.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar21.Location = New System.Drawing.Point(404, 111)
+    Me.Guna2ProgressBar21.Name = "Guna2ProgressBar21"
+    Me.Guna2ProgressBar21.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar21.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar21.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar21.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar21.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar21.Size = New System.Drawing.Size(18, 64)
+    Me.Guna2ProgressBar21.TabIndex = 1
+    Me.Guna2ProgressBar21.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar21.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar21.Value = 50
+    '
+    'Guna2ProgressBar9
+    '
+    Me.Guna2ProgressBar9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar9.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar9.Location = New System.Drawing.Point(160, 77)
+    Me.Guna2ProgressBar9.Name = "Guna2ProgressBar9"
+    Me.Guna2ProgressBar9.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar9.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar9.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar9.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar9.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar9.Size = New System.Drawing.Size(18, 98)
+    Me.Guna2ProgressBar9.TabIndex = 1
+    Me.Guna2ProgressBar9.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar9.Value = 50
+    '
+    'Guna2ProgressBar13
+    '
+    Me.Guna2ProgressBar13.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar13.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar13.Location = New System.Drawing.Point(241, 111)
+    Me.Guna2ProgressBar13.Name = "Guna2ProgressBar13"
+    Me.Guna2ProgressBar13.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar13.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar13.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar13.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar13.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar13.Size = New System.Drawing.Size(18, 64)
+    Me.Guna2ProgressBar13.TabIndex = 1
+    Me.Guna2ProgressBar13.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar13.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar13.Value = 50
+    '
+    'Guna2ProgressBar6
+    '
+    Me.Guna2ProgressBar6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar6.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar6.Location = New System.Drawing.Point(96, 111)
+    Me.Guna2ProgressBar6.Name = "Guna2ProgressBar6"
+    Me.Guna2ProgressBar6.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar6.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2ProgressBar6.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar6.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar6.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar6.Size = New System.Drawing.Size(18, 64)
+    Me.Guna2ProgressBar6.TabIndex = 1
+    Me.Guna2ProgressBar6.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar6.Value = 50
+    '
+    'Guna2ProgressBar5
+    '
+    Me.Guna2ProgressBar5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2ProgressBar5.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar5.Location = New System.Drawing.Point(79, 132)
+    Me.Guna2ProgressBar5.Name = "Guna2ProgressBar5"
+    Me.Guna2ProgressBar5.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar5.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+    Me.Guna2ProgressBar5.ShadowDecoration.Depth = 20
+    Me.Guna2ProgressBar5.ShadowDecoration.Enabled = True
+    Me.Guna2ProgressBar5.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+    Me.Guna2ProgressBar5.Size = New System.Drawing.Size(18, 43)
+    Me.Guna2ProgressBar5.TabIndex = 1
+    Me.Guna2ProgressBar5.Text = "Guna2ProgressBar1"
+    Me.Guna2ProgressBar5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+    Me.Guna2ProgressBar5.Value = 50
+    '
+    'Guna2Separator9
+    '
+    Me.Guna2Separator9.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+    Me.Guna2Separator9.FillThickness = 2
+    Me.Guna2Separator9.Location = New System.Drawing.Point(69, 171)
+    Me.Guna2Separator9.Name = "Guna2Separator9"
+    Me.Guna2Separator9.Size = New System.Drawing.Size(528, 10)
+    Me.Guna2Separator9.TabIndex = 3
+    '
     'Guna2Panel6
     '
     Me.Guna2Panel6.BackColor = System.Drawing.SystemColors.Control
@@ -1460,734 +2192,33 @@ Partial Class FrmMain
     Me.GunaPictureBox1.TabIndex = 1
     Me.GunaPictureBox1.TabStop = False
     '
-    'Guna2Button4
-    '
-    Me.Guna2Button4.Animated = True
-    Me.Guna2Button4.BorderRadius = 5
-    Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2Button4.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(242, Byte), Integer))
-    Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-    Me.Guna2Button4.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
-    Me.Guna2Button4.Location = New System.Drawing.Point(23, 11)
-    Me.Guna2Button4.Name = "Guna2Button4"
-    Me.Guna2Button4.Size = New System.Drawing.Size(30, 30)
-    Me.Guna2Button4.TabIndex = 0
-    Me.Guna2Button4.UseTransparentBackground = True
-    '
-    'Guna2CircleButton2
-    '
-    Me.Guna2CircleButton2.Animated = True
-    Me.Guna2CircleButton2.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2CircleButton2.BorderColor = System.Drawing.Color.White
-    Me.Guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2CircleButton2.FillColor = System.Drawing.Color.White
-    Me.Guna2CircleButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2CircleButton2.ForeColor = System.Drawing.Color.White
-    Me.Guna2CircleButton2.Image = Global.GoldSystem.My.Resources.Resources.notification_90px1
-    Me.Guna2CircleButton2.ImageSize = New System.Drawing.Size(28, 28)
-    Me.Guna2CircleButton2.Location = New System.Drawing.Point(71, 3)
-    Me.Guna2CircleButton2.Name = "Guna2CircleButton2"
-    Me.Guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-    Me.Guna2CircleButton2.Size = New System.Drawing.Size(37, 37)
-    Me.Guna2CircleButton2.TabIndex = 2
-    Me.Guna2CircleButton2.UseTransparentBackground = True
-    '
-    'Guna2CirclePictureBox1
-    '
-    Me.Guna2CirclePictureBox1.FillColor = System.Drawing.Color.Black
-    Me.Guna2CirclePictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Profile_Male_PNG
-    Me.Guna2CirclePictureBox1.ImageRotate = 0!
-    Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(126, 3)
-    Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
-    Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-    Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(37, 37)
-    Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-    Me.Guna2CirclePictureBox1.TabIndex = 2
-    Me.Guna2CirclePictureBox1.TabStop = False
-    '
-    'Guna2CircleButton1
-    '
-    Me.Guna2CircleButton1.Animated = True
-    Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2CircleButton1.BorderColor = System.Drawing.Color.White
-    Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2CircleButton1.FillColor = System.Drawing.Color.White
-    Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
-    Me.Guna2CircleButton1.Image = Global.GoldSystem.My.Resources.Resources.settings_90px
-    Me.Guna2CircleButton1.ImageSize = New System.Drawing.Size(28, 28)
-    Me.Guna2CircleButton1.Location = New System.Drawing.Point(12, 3)
-    Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
-    Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-    Me.Guna2CircleButton1.Size = New System.Drawing.Size(37, 37)
-    Me.Guna2CircleButton1.TabIndex = 2
-    Me.Guna2CircleButton1.UseTransparentBackground = True
-    '
-    'Guna2Button5
-    '
-    Me.Guna2Button5.Animated = True
-    Me.Guna2Button5.BorderRadius = 5
-    Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2Button5.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2Button5.ForeColor = System.Drawing.Color.White
-    Me.Guna2Button5.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
-    Me.Guna2Button5.Location = New System.Drawing.Point(188, 11)
-    Me.Guna2Button5.Name = "Guna2Button5"
-    Me.Guna2Button5.Size = New System.Drawing.Size(30, 30)
-    Me.Guna2Button5.TabIndex = 0
-    Me.Guna2Button5.UseTransparentBackground = True
-    '
-    'Guna2HtmlLabel28
-    '
-    Me.Guna2HtmlLabel28.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel28.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel28.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel28.Location = New System.Drawing.Point(59, 19)
-    Me.Guna2HtmlLabel28.Name = "Guna2HtmlLabel28"
-    Me.Guna2HtmlLabel28.Size = New System.Drawing.Size(35, 18)
-    Me.Guna2HtmlLabel28.TabIndex = 0
-    Me.Guna2HtmlLabel28.Text = "2022"
-    '
-    'Guna2HtmlLabel29
-    '
-    Me.Guna2HtmlLabel29.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel29.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel29.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel29.Location = New System.Drawing.Point(224, 19)
-    Me.Guna2HtmlLabel29.Name = "Guna2HtmlLabel29"
-    Me.Guna2HtmlLabel29.Size = New System.Drawing.Size(35, 18)
-    Me.Guna2HtmlLabel29.TabIndex = 0
-    Me.Guna2HtmlLabel29.Text = "2021"
-    '
-    'Guna2ProgressBar5
-    '
-    Me.Guna2ProgressBar5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar5.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar5.Location = New System.Drawing.Point(79, 132)
-    Me.Guna2ProgressBar5.Name = "Guna2ProgressBar5"
-    Me.Guna2ProgressBar5.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar5.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar5.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar5.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar5.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar5.Size = New System.Drawing.Size(18, 43)
-    Me.Guna2ProgressBar5.TabIndex = 1
-    Me.Guna2ProgressBar5.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar5.Value = 50
-    '
-    'Guna2ProgressBar6
-    '
-    Me.Guna2ProgressBar6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar6.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar6.Location = New System.Drawing.Point(96, 111)
-    Me.Guna2ProgressBar6.Name = "Guna2ProgressBar6"
-    Me.Guna2ProgressBar6.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar6.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar6.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar6.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar6.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar6.Size = New System.Drawing.Size(18, 64)
-    Me.Guna2ProgressBar6.TabIndex = 1
-    Me.Guna2ProgressBar6.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar6.Value = 50
-    '
-    'Guna2ProgressBar7
-    '
-    Me.Guna2ProgressBar7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar7.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar7.Location = New System.Drawing.Point(119, 65)
-    Me.Guna2ProgressBar7.Name = "Guna2ProgressBar7"
-    Me.Guna2ProgressBar7.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar7.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar7.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar7.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar7.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar7.Size = New System.Drawing.Size(18, 110)
-    Me.Guna2ProgressBar7.TabIndex = 1
-    Me.Guna2ProgressBar7.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar7.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar7.Value = 50
-    '
-    'Guna2ProgressBar8
-    '
-    Me.Guna2ProgressBar8.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar8.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar8.Location = New System.Drawing.Point(136, 111)
-    Me.Guna2ProgressBar8.Name = "Guna2ProgressBar8"
-    Me.Guna2ProgressBar8.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar8.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar8.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar8.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar8.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar8.Size = New System.Drawing.Size(18, 64)
-    Me.Guna2ProgressBar8.TabIndex = 1
-    Me.Guna2ProgressBar8.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar8.Value = 50
-    '
-    'Guna2ProgressBar9
-    '
-    Me.Guna2ProgressBar9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar9.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar9.Location = New System.Drawing.Point(160, 77)
-    Me.Guna2ProgressBar9.Name = "Guna2ProgressBar9"
-    Me.Guna2ProgressBar9.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar9.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar9.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar9.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar9.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar9.Size = New System.Drawing.Size(18, 98)
-    Me.Guna2ProgressBar9.TabIndex = 1
-    Me.Guna2ProgressBar9.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar9.Value = 50
-    '
-    'Guna2ProgressBar10
-    '
-    Me.Guna2ProgressBar10.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar10.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar10.Location = New System.Drawing.Point(177, 104)
-    Me.Guna2ProgressBar10.Name = "Guna2ProgressBar10"
-    Me.Guna2ProgressBar10.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar10.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar10.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar10.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar10.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar10.Size = New System.Drawing.Size(18, 71)
-    Me.Guna2ProgressBar10.TabIndex = 1
-    Me.Guna2ProgressBar10.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar10.Value = 50
-    '
-    'Guna2ProgressBar11
-    '
-    Me.Guna2ProgressBar11.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar11.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar11.Location = New System.Drawing.Point(200, 132)
-    Me.Guna2ProgressBar11.Name = "Guna2ProgressBar11"
-    Me.Guna2ProgressBar11.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar11.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar11.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar11.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar11.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar11.Size = New System.Drawing.Size(18, 43)
-    Me.Guna2ProgressBar11.TabIndex = 1
-    Me.Guna2ProgressBar11.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar11.Value = 50
-    '
-    'Guna2ProgressBar12
-    '
-    Me.Guna2ProgressBar12.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar12.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar12.Location = New System.Drawing.Point(217, 77)
-    Me.Guna2ProgressBar12.Name = "Guna2ProgressBar12"
-    Me.Guna2ProgressBar12.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar12.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar12.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar12.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar12.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar12.Size = New System.Drawing.Size(18, 98)
-    Me.Guna2ProgressBar12.TabIndex = 1
-    Me.Guna2ProgressBar12.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar12.Value = 50
-    '
-    'Guna2ProgressBar13
-    '
-    Me.Guna2ProgressBar13.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar13.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar13.Location = New System.Drawing.Point(241, 111)
-    Me.Guna2ProgressBar13.Name = "Guna2ProgressBar13"
-    Me.Guna2ProgressBar13.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar13.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar13.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar13.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar13.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar13.Size = New System.Drawing.Size(18, 64)
-    Me.Guna2ProgressBar13.TabIndex = 1
-    Me.Guna2ProgressBar13.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar13.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar13.Value = 50
-    '
-    'Guna2ProgressBar14
-    '
-    Me.Guna2ProgressBar14.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar14.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar14.Location = New System.Drawing.Point(258, 93)
-    Me.Guna2ProgressBar14.Name = "Guna2ProgressBar14"
-    Me.Guna2ProgressBar14.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar14.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar14.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar14.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar14.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar14.Size = New System.Drawing.Size(18, 82)
-    Me.Guna2ProgressBar14.TabIndex = 1
-    Me.Guna2ProgressBar14.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar14.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar14.Value = 50
-    '
-    'Guna2ProgressBar15
-    '
-    Me.Guna2ProgressBar15.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar15.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar15.Location = New System.Drawing.Point(323, 147)
-    Me.Guna2ProgressBar15.Name = "Guna2ProgressBar15"
-    Me.Guna2ProgressBar15.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar15.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar15.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar15.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar15.Size = New System.Drawing.Size(18, 28)
-    Me.Guna2ProgressBar15.TabIndex = 1
-    Me.Guna2ProgressBar15.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar15.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar15.Value = 50
-    '
-    'Guna2ProgressBar16
-    '
-    Me.Guna2ProgressBar16.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar16.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar16.Location = New System.Drawing.Point(281, 147)
-    Me.Guna2ProgressBar16.Name = "Guna2ProgressBar16"
-    Me.Guna2ProgressBar16.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar16.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar16.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar16.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar16.Size = New System.Drawing.Size(18, 28)
-    Me.Guna2ProgressBar16.TabIndex = 1
-    Me.Guna2ProgressBar16.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar16.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar16.Value = 50
-    '
-    'Guna2ProgressBar17
-    '
-    Me.Guna2ProgressBar17.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar17.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar17.Location = New System.Drawing.Point(340, 111)
-    Me.Guna2ProgressBar17.Name = "Guna2ProgressBar17"
-    Me.Guna2ProgressBar17.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar17.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar17.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar17.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar17.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar17.Size = New System.Drawing.Size(18, 64)
-    Me.Guna2ProgressBar17.TabIndex = 1
-    Me.Guna2ProgressBar17.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar17.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar17.Value = 50
-    '
-    'Guna2ProgressBar18
-    '
-    Me.Guna2ProgressBar18.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar18.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar18.Location = New System.Drawing.Point(298, 120)
-    Me.Guna2ProgressBar18.Name = "Guna2ProgressBar18"
-    Me.Guna2ProgressBar18.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar18.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar18.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar18.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar18.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar18.Size = New System.Drawing.Size(18, 55)
-    Me.Guna2ProgressBar18.TabIndex = 1
-    Me.Guna2ProgressBar18.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar18.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar18.Value = 50
-    '
-    'Guna2ProgressBar19
-    '
-    Me.Guna2ProgressBar19.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar19.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar19.Location = New System.Drawing.Point(363, 93)
-    Me.Guna2ProgressBar19.Name = "Guna2ProgressBar19"
-    Me.Guna2ProgressBar19.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar19.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar19.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar19.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar19.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar19.Size = New System.Drawing.Size(18, 82)
-    Me.Guna2ProgressBar19.TabIndex = 1
-    Me.Guna2ProgressBar19.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar19.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar19.Value = 50
-    '
-    'Guna2ProgressBar20
-    '
-    Me.Guna2ProgressBar20.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar20.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar20.Location = New System.Drawing.Point(380, 68)
-    Me.Guna2ProgressBar20.Name = "Guna2ProgressBar20"
-    Me.Guna2ProgressBar20.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar20.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar20.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar20.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar20.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar20.Size = New System.Drawing.Size(18, 107)
-    Me.Guna2ProgressBar20.TabIndex = 1
-    Me.Guna2ProgressBar20.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar20.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar20.Value = 50
-    '
-    'Guna2ProgressBar21
-    '
-    Me.Guna2ProgressBar21.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar21.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar21.Location = New System.Drawing.Point(404, 111)
-    Me.Guna2ProgressBar21.Name = "Guna2ProgressBar21"
-    Me.Guna2ProgressBar21.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar21.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar21.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar21.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar21.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar21.Size = New System.Drawing.Size(18, 64)
-    Me.Guna2ProgressBar21.TabIndex = 1
-    Me.Guna2ProgressBar21.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar21.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar21.Value = 50
-    '
-    'Guna2ProgressBar22
-    '
-    Me.Guna2ProgressBar22.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar22.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar22.Location = New System.Drawing.Point(421, 77)
-    Me.Guna2ProgressBar22.Name = "Guna2ProgressBar22"
-    Me.Guna2ProgressBar22.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar22.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar22.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar22.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar22.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar22.Size = New System.Drawing.Size(18, 98)
-    Me.Guna2ProgressBar22.TabIndex = 1
-    Me.Guna2ProgressBar22.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar22.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar22.Value = 50
-    '
-    'Guna2ProgressBar23
-    '
-    Me.Guna2ProgressBar23.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar23.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar23.Location = New System.Drawing.Point(486, 93)
-    Me.Guna2ProgressBar23.Name = "Guna2ProgressBar23"
-    Me.Guna2ProgressBar23.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar23.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar23.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar23.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar23.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar23.Size = New System.Drawing.Size(18, 82)
-    Me.Guna2ProgressBar23.TabIndex = 1
-    Me.Guna2ProgressBar23.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar23.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar23.Value = 50
-    '
-    'Guna2ProgressBar24
-    '
-    Me.Guna2ProgressBar24.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar24.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar24.Location = New System.Drawing.Point(444, 104)
-    Me.Guna2ProgressBar24.Name = "Guna2ProgressBar24"
-    Me.Guna2ProgressBar24.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar24.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar24.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar24.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar24.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar24.Size = New System.Drawing.Size(18, 71)
-    Me.Guna2ProgressBar24.TabIndex = 1
-    Me.Guna2ProgressBar24.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar24.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar24.Value = 50
-    '
-    'Guna2ProgressBar25
-    '
-    Me.Guna2ProgressBar25.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar25.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar25.Location = New System.Drawing.Point(503, 111)
-    Me.Guna2ProgressBar25.Name = "Guna2ProgressBar25"
-    Me.Guna2ProgressBar25.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar25.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar25.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar25.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar25.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar25.Size = New System.Drawing.Size(18, 64)
-    Me.Guna2ProgressBar25.TabIndex = 1
-    Me.Guna2ProgressBar25.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar25.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar25.Value = 50
-    '
-    'Guna2ProgressBar26
-    '
-    Me.Guna2ProgressBar26.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar26.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar26.Location = New System.Drawing.Point(461, 77)
-    Me.Guna2ProgressBar26.Name = "Guna2ProgressBar26"
-    Me.Guna2ProgressBar26.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar26.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar26.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar26.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar26.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar26.Size = New System.Drawing.Size(18, 98)
-    Me.Guna2ProgressBar26.TabIndex = 1
-    Me.Guna2ProgressBar26.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar26.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar26.Value = 50
-    '
-    'Guna2ProgressBar27
-    '
-    Me.Guna2ProgressBar27.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar27.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar27.Location = New System.Drawing.Point(526, 120)
-    Me.Guna2ProgressBar27.Name = "Guna2ProgressBar27"
-    Me.Guna2ProgressBar27.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar27.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
-    Me.Guna2ProgressBar27.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar27.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar27.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar27.Size = New System.Drawing.Size(18, 55)
-    Me.Guna2ProgressBar27.TabIndex = 1
-    Me.Guna2ProgressBar27.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar27.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar27.Value = 50
-    '
-    'Guna2ProgressBar28
-    '
-    Me.Guna2ProgressBar28.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2ProgressBar28.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar28.Location = New System.Drawing.Point(543, 93)
-    Me.Guna2ProgressBar28.Name = "Guna2ProgressBar28"
-    Me.Guna2ProgressBar28.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar28.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2ProgressBar28.ShadowDecoration.Depth = 20
-    Me.Guna2ProgressBar28.ShadowDecoration.Enabled = True
-    Me.Guna2ProgressBar28.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-    Me.Guna2ProgressBar28.Size = New System.Drawing.Size(18, 82)
-    Me.Guna2ProgressBar28.TabIndex = 1
-    Me.Guna2ProgressBar28.Text = "Guna2ProgressBar1"
-    Me.Guna2ProgressBar28.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-    Me.Guna2ProgressBar28.Value = 50
-    '
-    'Guna2HtmlLabel30
-    '
-    Me.Guna2HtmlLabel30.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel30.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel30.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel30.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel30.Location = New System.Drawing.Point(90, 176)
-    Me.Guna2HtmlLabel30.Name = "Guna2HtmlLabel30"
-    Me.Guna2HtmlLabel30.Size = New System.Drawing.Size(11, 18)
-    Me.Guna2HtmlLabel30.TabIndex = 0
-    Me.Guna2HtmlLabel30.Text = "1"
-    '
-    'Guna2HtmlLabel31
-    '
-    Me.Guna2HtmlLabel31.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel31.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel31.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel31.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel31.Location = New System.Drawing.Point(130, 176)
-    Me.Guna2HtmlLabel31.Name = "Guna2HtmlLabel31"
-    Me.Guna2HtmlLabel31.Size = New System.Drawing.Size(11, 18)
-    Me.Guna2HtmlLabel31.TabIndex = 0
-    Me.Guna2HtmlLabel31.Text = "2"
-    '
-    'Guna2HtmlLabel32
-    '
-    Me.Guna2HtmlLabel32.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel32.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel32.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel32.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel32.Location = New System.Drawing.Point(171, 176)
-    Me.Guna2HtmlLabel32.Name = "Guna2HtmlLabel32"
-    Me.Guna2HtmlLabel32.Size = New System.Drawing.Size(11, 18)
-    Me.Guna2HtmlLabel32.TabIndex = 0
-    Me.Guna2HtmlLabel32.Text = "3"
-    '
-    'Guna2HtmlLabel33
-    '
-    Me.Guna2HtmlLabel33.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel33.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel33.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel33.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel33.Location = New System.Drawing.Point(213, 176)
-    Me.Guna2HtmlLabel33.Name = "Guna2HtmlLabel33"
-    Me.Guna2HtmlLabel33.Size = New System.Drawing.Size(11, 18)
-    Me.Guna2HtmlLabel33.TabIndex = 0
-    Me.Guna2HtmlLabel33.Text = "4"
-    '
-    'Guna2HtmlLabel34
-    '
-    Me.Guna2HtmlLabel34.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel34.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel34.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel34.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel34.Location = New System.Drawing.Point(253, 176)
-    Me.Guna2HtmlLabel34.Name = "Guna2HtmlLabel34"
-    Me.Guna2HtmlLabel34.Size = New System.Drawing.Size(11, 18)
-    Me.Guna2HtmlLabel34.TabIndex = 0
-    Me.Guna2HtmlLabel34.Text = "5"
-    '
-    'Guna2HtmlLabel35
-    '
-    Me.Guna2HtmlLabel35.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel35.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel35.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel35.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel35.Location = New System.Drawing.Point(294, 176)
-    Me.Guna2HtmlLabel35.Name = "Guna2HtmlLabel35"
-    Me.Guna2HtmlLabel35.Size = New System.Drawing.Size(11, 18)
-    Me.Guna2HtmlLabel35.TabIndex = 0
-    Me.Guna2HtmlLabel35.Text = "6"
-    '
-    'Guna2HtmlLabel36
-    '
-    Me.Guna2HtmlLabel36.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel36.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel36.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel36.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel36.Location = New System.Drawing.Point(337, 176)
-    Me.Guna2HtmlLabel36.Name = "Guna2HtmlLabel36"
-    Me.Guna2HtmlLabel36.Size = New System.Drawing.Size(11, 18)
-    Me.Guna2HtmlLabel36.TabIndex = 0
-    Me.Guna2HtmlLabel36.Text = "7"
-    '
-    'Guna2HtmlLabel37
-    '
-    Me.Guna2HtmlLabel37.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel37.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel37.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel37.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel37.Location = New System.Drawing.Point(377, 176)
-    Me.Guna2HtmlLabel37.Name = "Guna2HtmlLabel37"
-    Me.Guna2HtmlLabel37.Size = New System.Drawing.Size(11, 18)
-    Me.Guna2HtmlLabel37.TabIndex = 0
-    Me.Guna2HtmlLabel37.Text = "8"
-    '
-    'Guna2HtmlLabel38
-    '
-    Me.Guna2HtmlLabel38.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel38.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel38.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel38.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel38.Location = New System.Drawing.Point(418, 176)
-    Me.Guna2HtmlLabel38.Name = "Guna2HtmlLabel38"
-    Me.Guna2HtmlLabel38.Size = New System.Drawing.Size(11, 18)
-    Me.Guna2HtmlLabel38.TabIndex = 0
-    Me.Guna2HtmlLabel38.Text = "9"
-    '
-    'Guna2HtmlLabel39
-    '
-    Me.Guna2HtmlLabel39.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel39.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel39.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel39.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel39.Location = New System.Drawing.Point(455, 176)
-    Me.Guna2HtmlLabel39.Name = "Guna2HtmlLabel39"
-    Me.Guna2HtmlLabel39.Size = New System.Drawing.Size(19, 18)
-    Me.Guna2HtmlLabel39.TabIndex = 0
-    Me.Guna2HtmlLabel39.Text = "10"
-    '
-    'Guna2HtmlLabel40
-    '
-    Me.Guna2HtmlLabel40.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel40.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel40.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel40.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel40.Location = New System.Drawing.Point(495, 176)
-    Me.Guna2HtmlLabel40.Name = "Guna2HtmlLabel40"
-    Me.Guna2HtmlLabel40.Size = New System.Drawing.Size(19, 18)
-    Me.Guna2HtmlLabel40.TabIndex = 0
-    Me.Guna2HtmlLabel40.Text = "11"
-    '
-    'Guna2HtmlLabel41
-    '
-    Me.Guna2HtmlLabel41.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel41.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel41.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel41.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel41.Location = New System.Drawing.Point(536, 176)
-    Me.Guna2HtmlLabel41.Name = "Guna2HtmlLabel41"
-    Me.Guna2HtmlLabel41.Size = New System.Drawing.Size(19, 18)
-    Me.Guna2HtmlLabel41.TabIndex = 0
-    Me.Guna2HtmlLabel41.Text = "12"
-    '
-    'Guna2HtmlLabel42
-    '
-    Me.Guna2HtmlLabel42.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2HtmlLabel42.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel42.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel42.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel42.Location = New System.Drawing.Point(16, 173)
-    Me.Guna2HtmlLabel42.Name = "Guna2HtmlLabel42"
-    Me.Guna2HtmlLabel42.Size = New System.Drawing.Size(51, 18)
-    Me.Guna2HtmlLabel42.TabIndex = 0
-    Me.Guna2HtmlLabel42.Text = "Months"
-    '
-    'Guna2HtmlLabel43
-    '
-    Me.Guna2HtmlLabel43.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2HtmlLabel43.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-    Me.Guna2HtmlLabel43.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2HtmlLabel43.Location = New System.Drawing.Point(16, 111)
-    Me.Guna2HtmlLabel43.Name = "Guna2HtmlLabel43"
-    Me.Guna2HtmlLabel43.Size = New System.Drawing.Size(51, 18)
-    Me.Guna2HtmlLabel43.TabIndex = 0
-    Me.Guna2HtmlLabel43.Text = "Months"
-    '
-    'Guna2VSeparator3
-    '
-    Me.Guna2VSeparator3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2VSeparator3.FillThickness = 2
-    Me.Guna2VSeparator3.Location = New System.Drawing.Point(69, 51)
-    Me.Guna2VSeparator3.Name = "Guna2VSeparator3"
-    Me.Guna2VSeparator3.Size = New System.Drawing.Size(10, 127)
-    Me.Guna2VSeparator3.TabIndex = 2
-    '
-    'Guna2Separator9
-    '
-    Me.Guna2Separator9.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-    Me.Guna2Separator9.FillThickness = 2
-    Me.Guna2Separator9.Location = New System.Drawing.Point(69, 171)
-    Me.Guna2Separator9.Name = "Guna2Separator9"
-    Me.Guna2Separator9.Size = New System.Drawing.Size(528, 10)
-    Me.Guna2Separator9.TabIndex = 3
+    'WebBrowser1
+    '
+    Me.WebBrowser1.Location = New System.Drawing.Point(69, -44)
+    Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+    Me.WebBrowser1.Name = "WebBrowser1"
+    Me.WebBrowser1.Size = New System.Drawing.Size(215, 237)
+    Me.WebBrowser1.TabIndex = 9
+    Me.WebBrowser1.Visible = False
+    '
+    'Guna2TextBox1
+    '
+    Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
+    Me.Guna2TextBox1.DefaultText = ""
+    Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+    Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+    Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+    Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+    Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+    Me.Guna2TextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+    Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+    Me.Guna2TextBox1.Location = New System.Drawing.Point(401, 295)
+    Me.Guna2TextBox1.Name = "Guna2TextBox1"
+    Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+    Me.Guna2TextBox1.PlaceholderText = ""
+    Me.Guna2TextBox1.SelectedText = ""
+    Me.Guna2TextBox1.Size = New System.Drawing.Size(495, 279)
+    Me.Guna2TextBox1.TabIndex = 9
     '
     'FrmMain
     '
@@ -2195,6 +2226,7 @@ Partial Class FrmMain
     Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
     Me.BackColor = System.Drawing.SystemColors.Control
     Me.ClientSize = New System.Drawing.Size(1117, 670)
+    Me.Controls.Add(Me.Guna2TextBox1)
     Me.Controls.Add(Me.Guna2Panel6)
     Me.Controls.Add(Me.Guna2Panel5)
     Me.Controls.Add(Me.Guna2Panel4)
@@ -2211,6 +2243,7 @@ Partial Class FrmMain
     Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
     Me.Guna2Panel1.ResumeLayout(False)
     Me.Guna2Panel1.PerformLayout()
+    CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
     Me.Guna2Panel2.ResumeLayout(False)
     Me.Guna2GradientPanel1.ResumeLayout(False)
     Me.Guna2GradientPanel1.PerformLayout()
@@ -2226,7 +2259,6 @@ Partial Class FrmMain
     Me.Guna2Panel5.PerformLayout()
     Me.Guna2Panel6.ResumeLayout(False)
     CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-    CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
     Me.ResumeLayout(False)
     Me.PerformLayout()
 
@@ -2368,4 +2400,6 @@ Partial Class FrmMain
   Friend WithEvents Guna2VSeparator3 As Guna.UI2.WinForms.Guna2VSeparator
   Friend WithEvents Guna2HtmlLabel43 As Guna.UI2.WinForms.Guna2HtmlLabel
   Friend WithEvents Guna2Separator9 As Guna.UI2.WinForms.Guna2Separator
+  Friend WithEvents WebBrowser1 As WebBrowser
+  Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
 End Class
