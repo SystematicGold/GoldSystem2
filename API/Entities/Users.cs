@@ -10,5 +10,6 @@ namespace API.Entities
     public byte[]? PasswordSalt { get; set; }
     public int SavedLogin { get; set; } = 0;
     public string? MacNumber { get; set; }
+    public string? MacNumber2 { get; set; }
   }
 }

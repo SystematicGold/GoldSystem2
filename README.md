@@ -1,2 +1,0 @@
-"# GoldSystem"
-"# GoldSystem2" 
