@@ -1,0 +1,78 @@
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\GoldSystem.exe.config
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\GoldSystem.exe
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\GoldSystem.pdb
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\GoldSystem.xml
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\Bunifu_UI_v1.52.dll
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\Guna.UI.dll
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.vbprojAssemblyReference.cache
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.Resources.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.GenerateResource.cache
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CoreCompileInputs.cache
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CopyComplete
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.exe
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.xml
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.pdb
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\ar-KW\GoldSystem.resources.dll
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\en-US\GoldSystem.resources.dll
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.ar-KW.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.en-US.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\ar-KW\GoldSystem.resources.dll
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\en-US\GoldSystem.resources.dll
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\ar\GoldSystem.resources.dll
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.ar.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\ar\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\GoldSystem.exe.config
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\GoldSystem.exe
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\GoldSystem.pdb
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\GoldSystem.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ar\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ar-KW\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\en-US\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Bunifu_UI_v1.52.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Guna.UI.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.vbprojAssemblyReference.cache
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.Resources.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.ar.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.ar-KW.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.en-US.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.GenerateResource.cache
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CoreCompileInputs.cache
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\ar\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\ar-KW\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\en-US\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CopyComplete
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.exe
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.xml
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.pdb
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmMain.resources
+C:\Source Code\source Code\GoldSystem\bin\Debug\GoldSystem.exe.config
+C:\Source Code\source Code\GoldSystem\bin\Debug\GoldSystem.exe
+C:\Source Code\source Code\GoldSystem\bin\Debug\GoldSystem.pdb
+C:\Source Code\source Code\GoldSystem\bin\Debug\GoldSystem.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\ar\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ar-KW\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\en-US\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\Guna.UI.dll
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.vbprojAssemblyReference.cache
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmMain.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.Resources.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.ar.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.ar-KW.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.en-US.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.GenerateResource.cache
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CoreCompileInputs.cache
+C:\Source Code\source Code\GoldSystem\obj\Debug\ar\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\obj\Debug\ar-KW\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\obj\Debug\en-US\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CopyComplete
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.exe
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.xml
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.pdb
+C:\Source Code\source Code\GoldSystem\bin\Debug\Guna.UI2.dll

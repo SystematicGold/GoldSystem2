@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GoldSystem", "GoldSystem\GoldSystem.vbproj", "{05DE14CD-E15D-4446-899A-5A1D21924486}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05DE14CD-E15D-4446-899A-5A1D21924486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DE14CD-E15D-4446-899A-5A1D21924486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DE14CD-E15D-4446-899A-5A1D21924486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DE14CD-E15D-4446-899A-5A1D21924486}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BDE14C0-1EDD-40B2-88CC-A27116659788}
+	EndGlobalSection
+EndGlobal

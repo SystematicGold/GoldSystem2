@@ -1,0 +1,152 @@
+C:\Source Code\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+C:\Source Code\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source Code\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+C:\Source Code\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+C:\Source Code\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+C:\Source Code\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\Source Code\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Source Code\API\bin\Debug\net7.0\appsettings.Development.json
+C:\Source Code\API\bin\Debug\net7.0\appsettings.json
+C:\Source Code\API\bin\Debug\net7.0\API.exe
+C:\Source Code\API\bin\Debug\net7.0\API.deps.json
+C:\Source Code\API\bin\Debug\net7.0\API.runtimeconfig.json
+C:\Source Code\API\bin\Debug\net7.0\API.dll
+C:\Source Code\API\bin\Debug\net7.0\API.pdb
+C:\Source Code\API\bin\Debug\net7.0\Azure.Core.dll
+C:\Source Code\API\bin\Debug\net7.0\Azure.Identity.dll
+C:\Source Code\API\bin\Debug\net7.0\Humanizer.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Source Code\API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Source Code\API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Source Code\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Source Code\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Source Code\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Source Code\API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Source Code\API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Source Code\API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Source Code\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Source Code\API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Source Code\API\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Source Code\API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Source Code\API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Source Code\API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Source Code\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Source Code\API\obj\Debug\net7.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Source Code\API\obj\Debug\net7.0\staticwebassets\msbuild.build.API.props
+C:\Source Code\API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\Source Code\API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\Source Code\API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Source Code\API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Source Code\API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Source Code\API\obj\Debug\net7.0\scopedcss\bundle\API.styles.css
+C:\Source Code\API\obj\Debug\net7.0\API.csproj.CopyComplete
+C:\Source Code\API\obj\Debug\net7.0\API.dll
+C:\Source Code\API\obj\Debug\net7.0\refint\API.dll
+C:\Source Code\API\obj\Debug\net7.0\API.pdb
+C:\Source Code\API\obj\Debug\net7.0\API.genruntimeconfig.cache
+C:\Source Code\API\obj\Debug\net7.0\ref\API.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\appsettings.Development.json
+D:\electron\demo\G\API\bin\Debug\net7.0\appsettings.json
+D:\electron\demo\G\API\bin\Debug\net7.0\API.exe
+D:\electron\demo\G\API\bin\Debug\net7.0\API.deps.json
+D:\electron\demo\G\API\bin\Debug\net7.0\API.runtimeconfig.json
+D:\electron\demo\G\API\bin\Debug\net7.0\API.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\API.pdb
+D:\electron\demo\G\API\bin\Debug\net7.0\Azure.Core.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Azure.Identity.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Humanizer.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\System.CodeDom.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\System.Memory.Data.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\electron\demo\G\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\electron\demo\G\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+D:\electron\demo\G\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+D:\electron\demo\G\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+D:\electron\demo\G\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+D:\electron\demo\G\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+D:\electron\demo\G\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
+D:\electron\demo\G\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
+D:\electron\demo\G\API\obj\Debug\net7.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\electron\demo\G\API\obj\Debug\net7.0\staticwebassets\msbuild.build.API.props
+D:\electron\demo\G\API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+D:\electron\demo\G\API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.API.props
+D:\electron\demo\G\API\obj\Debug\net7.0\staticwebassets.pack.json
+D:\electron\demo\G\API\obj\Debug\net7.0\staticwebassets.build.json
+D:\electron\demo\G\API\obj\Debug\net7.0\staticwebassets.development.json
+D:\electron\demo\G\API\obj\Debug\net7.0\scopedcss\bundle\API.styles.css
+D:\electron\demo\G\API\obj\Debug\net7.0\API.csproj.CopyComplete
+D:\electron\demo\G\API\obj\Debug\net7.0\API.dll
+D:\electron\demo\G\API\obj\Debug\net7.0\refint\API.dll
+D:\electron\demo\G\API\obj\Debug\net7.0\API.pdb
+D:\electron\demo\G\API\obj\Debug\net7.0\API.genruntimeconfig.cache
+D:\electron\demo\G\API\obj\Debug\net7.0\ref\API.dll
