@@ -83,6 +83,41 @@ Partial Class FrmMain
         Me.Guna2ProgressBar1 = New Guna.UI2.WinForms.Guna2ProgressBar()
         Me.Guna2CircleProgressBar2 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
         Me.Guna2ProgressBar2 = New Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.Guna2CircleProgressBar3 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Guna2ProgressBar3 = New Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.Guna2ProgressBar4 = New Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.Guna2CircleProgressBar4 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Guna2CircleProgressBar5 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Guna2CircleProgressBar7 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Guna2CircleProgressBar8 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Guna2CircleProgressBar9 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Guna2HtmlLabel21 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2Separator5 = New Guna.UI2.WinForms.Guna2Separator()
+        Me.Guna2HtmlLabel22 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2HtmlLabel23 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2Separator7 = New Guna.UI2.WinForms.Guna2Separator()
+        Me.Guna2HtmlLabel24 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2HtmlLabel25 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2Separator8 = New Guna.UI2.WinForms.Guna2Separator()
+        Me.Guna2HtmlLabel26 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2HtmlLabel27 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.GunaPanel1.SuspendLayout()
         CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel1.SuspendLayout()
@@ -92,6 +127,7 @@ Partial Class FrmMain
         Me.Guna2GradientPanel2.SuspendLayout()
         Me.Guna2GradientPanel3.SuspendLayout()
         Me.Guna2Panel3.SuspendLayout()
+        Me.Guna2Panel4.SuspendLayout()
         Me.SuspendLayout()
         '
         'GunaPanel1
@@ -103,7 +139,7 @@ Partial Class FrmMain
         Me.GunaPanel1.Dock = System.Windows.Forms.DockStyle.Right
         Me.GunaPanel1.Location = New System.Drawing.Point(917, 0)
         Me.GunaPanel1.Name = "GunaPanel1"
-        Me.GunaPanel1.Size = New System.Drawing.Size(200, 603)
+        Me.GunaPanel1.Size = New System.Drawing.Size(200, 670)
         Me.GunaPanel1.TabIndex = 0
         '
         'Guna2GradientButton2
@@ -589,6 +625,8 @@ Partial Class FrmMain
         Me.Guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(152, Byte), Integer))
         Me.Guna2GradientPanel1.Location = New System.Drawing.Point(617, 117)
         Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
+        Me.Guna2GradientPanel1.ShadowDecoration.BorderRadius = 15
+        Me.Guna2GradientPanel1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
         Me.Guna2GradientPanel1.Size = New System.Drawing.Size(294, 173)
         Me.Guna2GradientPanel1.TabIndex = 4
         '
@@ -646,6 +684,8 @@ Partial Class FrmMain
         Me.Guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(152, Byte), Integer))
         Me.Guna2GradientPanel2.Location = New System.Drawing.Point(316, 117)
         Me.Guna2GradientPanel2.Name = "Guna2GradientPanel2"
+        Me.Guna2GradientPanel2.ShadowDecoration.BorderRadius = 15
+        Me.Guna2GradientPanel2.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
         Me.Guna2GradientPanel2.Size = New System.Drawing.Size(294, 173)
         Me.Guna2GradientPanel2.TabIndex = 4
         '
@@ -744,6 +784,8 @@ Partial Class FrmMain
         Me.Guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(152, Byte), Integer))
         Me.Guna2GradientPanel3.Location = New System.Drawing.Point(16, 117)
         Me.Guna2GradientPanel3.Name = "Guna2GradientPanel3"
+        Me.Guna2GradientPanel3.ShadowDecoration.BorderRadius = 15
+        Me.Guna2GradientPanel3.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
         Me.Guna2GradientPanel3.Size = New System.Drawing.Size(294, 173)
         Me.Guna2GradientPanel3.TabIndex = 4
         '
@@ -832,15 +874,47 @@ Partial Class FrmMain
         '
         Me.Guna2Panel3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2Panel3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Panel3.BorderRadius = 15
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar9)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar8)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar7)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar5)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar4)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar3)
+        Me.Guna2Panel3.Controls.Add(Me.Label27)
+        Me.Guna2Panel3.Controls.Add(Me.Label16)
+        Me.Guna2Panel3.Controls.Add(Me.Label15)
+        Me.Guna2Panel3.Controls.Add(Me.Label26)
+        Me.Guna2Panel3.Controls.Add(Me.Label14)
+        Me.Guna2Panel3.Controls.Add(Me.Label20)
+        Me.Guna2Panel3.Controls.Add(Me.Label19)
+        Me.Guna2Panel3.Controls.Add(Me.Label18)
+        Me.Guna2Panel3.Controls.Add(Me.Label25)
+        Me.Guna2Panel3.Controls.Add(Me.Label24)
+        Me.Guna2Panel3.Controls.Add(Me.Label23)
+        Me.Guna2Panel3.Controls.Add(Me.Label22)
+        Me.Guna2Panel3.Controls.Add(Me.Label17)
+        Me.Guna2Panel3.Controls.Add(Me.Label21)
+        Me.Guna2Panel3.Controls.Add(Me.Label13)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar4)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar3)
         Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar2)
         Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar2)
         Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar1)
         Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar1)
         Me.Guna2Panel3.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel3.Location = New System.Drawing.Point(18, 325)
+        Me.Guna2Panel3.Location = New System.Drawing.Point(18, 311)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(893, 117)
+        Me.Guna2Panel3.ShadowDecoration.BorderRadius = 15
+        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges.BottomLeft = False
+        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges.BottomRight = False
+        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges.TopLeft = False
+        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges.TopRight = False
+        Me.Guna2Panel3.ShadowDecoration.Depth = 25
+        Me.Guna2Panel3.ShadowDecoration.Enabled = True
+        Me.Guna2Panel3.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(893, 131)
         Me.Guna2Panel3.TabIndex = 5
         '
         'Guna2CircleProgressBar1
@@ -850,22 +924,35 @@ Partial Class FrmMain
         Me.Guna2CircleProgressBar1.FillThickness = 5
         Me.Guna2CircleProgressBar1.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Guna2CircleProgressBar1.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleProgressBar1.Location = New System.Drawing.Point(17, 29)
+        Me.Guna2CircleProgressBar1.Location = New System.Drawing.Point(43, 35)
         Me.Guna2CircleProgressBar1.Minimum = 0
         Me.Guna2CircleProgressBar1.Name = "Guna2CircleProgressBar1"
+        Me.Guna2CircleProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar1.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar1.ProgressThickness = 5
+        Me.Guna2CircleProgressBar1.ShadowDecoration.Depth = 25
+        Me.Guna2CircleProgressBar1.ShadowDecoration.Enabled = True
         Me.Guna2CircleProgressBar1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
         Me.Guna2CircleProgressBar1.Size = New System.Drawing.Size(42, 42)
         Me.Guna2CircleProgressBar1.TabIndex = 0
         Me.Guna2CircleProgressBar1.Text = "Guna2CircleProgressBar1"
+        Me.Guna2CircleProgressBar1.Value = 100
         '
         'Guna2ProgressBar1
         '
-        Me.Guna2ProgressBar1.Location = New System.Drawing.Point(56, 47)
+        Me.Guna2ProgressBar1.Location = New System.Drawing.Point(82, 53)
         Me.Guna2ProgressBar1.Name = "Guna2ProgressBar1"
-        Me.Guna2ProgressBar1.Size = New System.Drawing.Size(245, 8)
+        Me.Guna2ProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2ProgressBar1.ShadowDecoration.Color = System.Drawing.Color.Gray
+        Me.Guna2ProgressBar1.ShadowDecoration.Depth = 25
+        Me.Guna2ProgressBar1.ShadowDecoration.Enabled = True
+        Me.Guna2ProgressBar1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2ProgressBar1.Size = New System.Drawing.Size(161, 5)
         Me.Guna2ProgressBar1.TabIndex = 1
         Me.Guna2ProgressBar1.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.Guna2ProgressBar1.Value = 100
         '
         'Guna2CircleProgressBar2
         '
@@ -874,29 +961,520 @@ Partial Class FrmMain
         Me.Guna2CircleProgressBar2.FillThickness = 5
         Me.Guna2CircleProgressBar2.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Guna2CircleProgressBar2.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleProgressBar2.Location = New System.Drawing.Point(302, 29)
+        Me.Guna2CircleProgressBar2.Location = New System.Drawing.Point(242, 35)
         Me.Guna2CircleProgressBar2.Minimum = 0
         Me.Guna2CircleProgressBar2.Name = "Guna2CircleProgressBar2"
+        Me.Guna2CircleProgressBar2.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar2.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar2.ProgressThickness = 5
+        Me.Guna2CircleProgressBar2.ShadowDecoration.Depth = 25
+        Me.Guna2CircleProgressBar2.ShadowDecoration.Enabled = True
         Me.Guna2CircleProgressBar2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar2.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
         Me.Guna2CircleProgressBar2.Size = New System.Drawing.Size(42, 42)
         Me.Guna2CircleProgressBar2.TabIndex = 0
         Me.Guna2CircleProgressBar2.Text = "Guna2CircleProgressBar1"
+        Me.Guna2CircleProgressBar2.Value = 100
         '
         'Guna2ProgressBar2
         '
-        Me.Guna2ProgressBar2.Location = New System.Drawing.Point(341, 47)
+        Me.Guna2ProgressBar2.Location = New System.Drawing.Point(281, 53)
         Me.Guna2ProgressBar2.Name = "Guna2ProgressBar2"
-        Me.Guna2ProgressBar2.Size = New System.Drawing.Size(263, 8)
+        Me.Guna2ProgressBar2.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2ProgressBar2.ShadowDecoration.Color = System.Drawing.Color.Gray
+        Me.Guna2ProgressBar2.ShadowDecoration.Depth = 25
+        Me.Guna2ProgressBar2.ShadowDecoration.Enabled = True
+        Me.Guna2ProgressBar2.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2ProgressBar2.Size = New System.Drawing.Size(161, 5)
         Me.Guna2ProgressBar2.TabIndex = 1
         Me.Guna2ProgressBar2.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.Guna2ProgressBar2.Value = 100
+        '
+        'Guna2CircleProgressBar3
+        '
+        Me.Guna2CircleProgressBar3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleProgressBar3.FillColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(218, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.Guna2CircleProgressBar3.FillThickness = 5
+        Me.Guna2CircleProgressBar3.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Guna2CircleProgressBar3.ForeColor = System.Drawing.Color.White
+        Me.Guna2CircleProgressBar3.Location = New System.Drawing.Point(440, 35)
+        Me.Guna2CircleProgressBar3.Minimum = 0
+        Me.Guna2CircleProgressBar3.Name = "Guna2CircleProgressBar3"
+        Me.Guna2CircleProgressBar3.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar3.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar3.ProgressThickness = 5
+        Me.Guna2CircleProgressBar3.ShadowDecoration.Depth = 25
+        Me.Guna2CircleProgressBar3.ShadowDecoration.Enabled = True
+        Me.Guna2CircleProgressBar3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar3.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2CircleProgressBar3.Size = New System.Drawing.Size(42, 42)
+        Me.Guna2CircleProgressBar3.TabIndex = 0
+        Me.Guna2CircleProgressBar3.Text = "Guna2CircleProgressBar1"
+        Me.Guna2CircleProgressBar3.Value = 100
+        '
+        'Guna2ProgressBar3
+        '
+        Me.Guna2ProgressBar3.Location = New System.Drawing.Point(478, 53)
+        Me.Guna2ProgressBar3.Name = "Guna2ProgressBar3"
+        Me.Guna2ProgressBar3.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2ProgressBar3.ShadowDecoration.Enabled = True
+        Me.Guna2ProgressBar3.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2ProgressBar3.Size = New System.Drawing.Size(161, 5)
+        Me.Guna2ProgressBar3.TabIndex = 1
+        Me.Guna2ProgressBar3.Text = "Guna2ProgressBar1"
+        Me.Guna2ProgressBar3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.Guna2ProgressBar3.Value = 50
+        '
+        'Guna2ProgressBar4
+        '
+        Me.Guna2ProgressBar4.Location = New System.Drawing.Point(677, 53)
+        Me.Guna2ProgressBar4.Name = "Guna2ProgressBar4"
+        Me.Guna2ProgressBar4.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2ProgressBar4.ShadowDecoration.Depth = 25
+        Me.Guna2ProgressBar4.ShadowDecoration.Enabled = True
+        Me.Guna2ProgressBar4.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2ProgressBar4.Size = New System.Drawing.Size(161, 5)
+        Me.Guna2ProgressBar4.TabIndex = 1
+        Me.Guna2ProgressBar4.Text = "Guna2ProgressBar1"
+        Me.Guna2ProgressBar4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        '
+        'Guna2CircleProgressBar4
+        '
+        Me.Guna2CircleProgressBar4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleProgressBar4.FillColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(218, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.Guna2CircleProgressBar4.FillThickness = 5
+        Me.Guna2CircleProgressBar4.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Guna2CircleProgressBar4.ForeColor = System.Drawing.Color.White
+        Me.Guna2CircleProgressBar4.Location = New System.Drawing.Point(637, 35)
+        Me.Guna2CircleProgressBar4.Minimum = 0
+        Me.Guna2CircleProgressBar4.Name = "Guna2CircleProgressBar4"
+        Me.Guna2CircleProgressBar4.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar4.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar4.ProgressThickness = 5
+        Me.Guna2CircleProgressBar4.ShadowDecoration.Depth = 25
+        Me.Guna2CircleProgressBar4.ShadowDecoration.Enabled = True
+        Me.Guna2CircleProgressBar4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar4.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2CircleProgressBar4.Size = New System.Drawing.Size(42, 42)
+        Me.Guna2CircleProgressBar4.TabIndex = 0
+        Me.Guna2CircleProgressBar4.Text = "Guna2CircleProgressBar1"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.BackColor = System.Drawing.Color.Transparent
+        Me.Label13.Font = New System.Drawing.Font("Tahoma", 11.0!)
+        Me.Label13.ForeColor = System.Drawing.Color.Gray
+        Me.Label13.Location = New System.Drawing.Point(30, 80)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(69, 18)
+        Me.Label13.TabIndex = 2
+        Me.Label13.Text = "الربع الاول"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.BackColor = System.Drawing.Color.Transparent
+        Me.Label14.Font = New System.Drawing.Font("Tahoma", 11.0!)
+        Me.Label14.ForeColor = System.Drawing.Color.Gray
+        Me.Label14.Location = New System.Drawing.Point(224, 80)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(76, 18)
+        Me.Label14.TabIndex = 2
+        Me.Label14.Text = "الربع الثانى"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.BackColor = System.Drawing.Color.Transparent
+        Me.Label15.Font = New System.Drawing.Font("Tahoma", 11.0!)
+        Me.Label15.ForeColor = System.Drawing.Color.Gray
+        Me.Label15.Location = New System.Drawing.Point(428, 80)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(75, 18)
+        Me.Label15.TabIndex = 2
+        Me.Label15.Text = "الربع الثالث"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.BackColor = System.Drawing.Color.Transparent
+        Me.Label16.Font = New System.Drawing.Font("Tahoma", 11.0!)
+        Me.Label16.ForeColor = System.Drawing.Color.Gray
+        Me.Label16.Location = New System.Drawing.Point(623, 80)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(71, 18)
+        Me.Label16.TabIndex = 2
+        Me.Label16.Text = "الربع الرابع"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.BackColor = System.Drawing.Color.Transparent
+        Me.Label17.Font = New System.Drawing.Font("Tahoma", 11.0!)
+        Me.Label17.ForeColor = System.Drawing.Color.Gray
+        Me.Label17.Location = New System.Drawing.Point(20, 105)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(90, 18)
+        Me.Label17.TabIndex = 2
+        Me.Label17.Text = "First Quarter"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.BackColor = System.Drawing.Color.Transparent
+        Me.Label18.Font = New System.Drawing.Font("Tahoma", 11.0!)
+        Me.Label18.ForeColor = System.Drawing.Color.Gray
+        Me.Label18.Location = New System.Drawing.Point(213, 105)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(110, 18)
+        Me.Label18.TabIndex = 2
+        Me.Label18.Text = "Second Quarter"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.BackColor = System.Drawing.Color.Transparent
+        Me.Label19.Font = New System.Drawing.Font("Tahoma", 11.0!)
+        Me.Label19.ForeColor = System.Drawing.Color.Gray
+        Me.Label19.Location = New System.Drawing.Point(417, 105)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(93, 18)
+        Me.Label19.TabIndex = 2
+        Me.Label19.Text = "Third quarter"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.BackColor = System.Drawing.Color.Transparent
+        Me.Label20.Font = New System.Drawing.Font("Tahoma", 11.0!)
+        Me.Label20.ForeColor = System.Drawing.Color.Gray
+        Me.Label20.Location = New System.Drawing.Point(610, 105)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(102, 18)
+        Me.Label20.TabIndex = 2
+        Me.Label20.Text = "Fourth quarter"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.BackColor = System.Drawing.Color.Transparent
+        Me.Label21.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label21.ForeColor = System.Drawing.Color.Gray
+        Me.Label21.Location = New System.Drawing.Point(41, 10)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(68, 19)
+        Me.Label21.TabIndex = 2
+        Me.Label21.Text = "24.4 %"
+        '
+        'Guna2CircleProgressBar5
+        '
+        Me.Guna2CircleProgressBar5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleProgressBar5.FillColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(218, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.Guna2CircleProgressBar5.FillThickness = 5
+        Me.Guna2CircleProgressBar5.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Guna2CircleProgressBar5.ForeColor = System.Drawing.Color.White
+        Me.Guna2CircleProgressBar5.Location = New System.Drawing.Point(836, 35)
+        Me.Guna2CircleProgressBar5.Minimum = 0
+        Me.Guna2CircleProgressBar5.Name = "Guna2CircleProgressBar5"
+        Me.Guna2CircleProgressBar5.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar5.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar5.ProgressThickness = 5
+        Me.Guna2CircleProgressBar5.ShadowDecoration.Depth = 25
+        Me.Guna2CircleProgressBar5.ShadowDecoration.Enabled = True
+        Me.Guna2CircleProgressBar5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar5.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2CircleProgressBar5.Size = New System.Drawing.Size(42, 42)
+        Me.Guna2CircleProgressBar5.TabIndex = 0
+        Me.Guna2CircleProgressBar5.Text = "Guna2CircleProgressBar1"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.BackColor = System.Drawing.Color.Transparent
+        Me.Label22.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label22.ForeColor = System.Drawing.Color.Gray
+        Me.Label22.Location = New System.Drawing.Point(234, 10)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(68, 19)
+        Me.Label22.TabIndex = 2
+        Me.Label22.Text = "24.4 %"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.BackColor = System.Drawing.Color.Transparent
+        Me.Label23.Font = New System.Drawing.Font("Tahoma", 15.0!, System.Drawing.FontStyle.Bold)
+        Me.Label23.ForeColor = System.Drawing.Color.Gray
+        Me.Label23.Location = New System.Drawing.Point(426, 10)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(85, 24)
+        Me.Label23.TabIndex = 2
+        Me.Label23.Text = "24.4 %"
+        '
+        'Guna2CircleProgressBar7
+        '
+        Me.Guna2CircleProgressBar7.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleProgressBar7.FillColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(218, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.Guna2CircleProgressBar7.FillThickness = 5
+        Me.Guna2CircleProgressBar7.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Guna2CircleProgressBar7.ForeColor = System.Drawing.Color.White
+        Me.Guna2CircleProgressBar7.Location = New System.Drawing.Point(1214, 35)
+        Me.Guna2CircleProgressBar7.Minimum = 0
+        Me.Guna2CircleProgressBar7.Name = "Guna2CircleProgressBar7"
+        Me.Guna2CircleProgressBar7.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar7.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar7.ProgressThickness = 5
+        Me.Guna2CircleProgressBar7.ShadowDecoration.Depth = 25
+        Me.Guna2CircleProgressBar7.ShadowDecoration.Enabled = True
+        Me.Guna2CircleProgressBar7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar7.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2CircleProgressBar7.Size = New System.Drawing.Size(42, 42)
+        Me.Guna2CircleProgressBar7.TabIndex = 0
+        Me.Guna2CircleProgressBar7.Text = "Guna2CircleProgressBar1"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.Color.Transparent
+        Me.Label24.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label24.ForeColor = System.Drawing.Color.Gray
+        Me.Label24.Location = New System.Drawing.Point(632, 10)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(68, 19)
+        Me.Label24.TabIndex = 2
+        Me.Label24.Text = "24.4 %"
+        '
+        'Guna2CircleProgressBar8
+        '
+        Me.Guna2CircleProgressBar8.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleProgressBar8.FillColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(218, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.Guna2CircleProgressBar8.FillThickness = 5
+        Me.Guna2CircleProgressBar8.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Guna2CircleProgressBar8.ForeColor = System.Drawing.Color.White
+        Me.Guna2CircleProgressBar8.Location = New System.Drawing.Point(1420, 36)
+        Me.Guna2CircleProgressBar8.Minimum = 0
+        Me.Guna2CircleProgressBar8.Name = "Guna2CircleProgressBar8"
+        Me.Guna2CircleProgressBar8.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar8.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar8.ProgressThickness = 5
+        Me.Guna2CircleProgressBar8.ShadowDecoration.Depth = 25
+        Me.Guna2CircleProgressBar8.ShadowDecoration.Enabled = True
+        Me.Guna2CircleProgressBar8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar8.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2CircleProgressBar8.Size = New System.Drawing.Size(42, 42)
+        Me.Guna2CircleProgressBar8.TabIndex = 0
+        Me.Guna2CircleProgressBar8.Text = "Guna2CircleProgressBar1"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.BackColor = System.Drawing.Color.Transparent
+        Me.Label25.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label25.ForeColor = System.Drawing.Color.Gray
+        Me.Label25.Location = New System.Drawing.Point(823, 10)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(68, 19)
+        Me.Label25.TabIndex = 2
+        Me.Label25.Text = "24.4 %"
+        '
+        'Guna2CircleProgressBar9
+        '
+        Me.Guna2CircleProgressBar9.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleProgressBar9.FillColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(218, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.Guna2CircleProgressBar9.FillThickness = 5
+        Me.Guna2CircleProgressBar9.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Guna2CircleProgressBar9.ForeColor = System.Drawing.Color.White
+        Me.Guna2CircleProgressBar9.Location = New System.Drawing.Point(1605, 8)
+        Me.Guna2CircleProgressBar9.Minimum = 0
+        Me.Guna2CircleProgressBar9.Name = "Guna2CircleProgressBar9"
+        Me.Guna2CircleProgressBar9.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar9.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2CircleProgressBar9.ProgressThickness = 5
+        Me.Guna2CircleProgressBar9.ShadowDecoration.Depth = 25
+        Me.Guna2CircleProgressBar9.ShadowDecoration.Enabled = True
+        Me.Guna2CircleProgressBar9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar9.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.Guna2CircleProgressBar9.Size = New System.Drawing.Size(42, 42)
+        Me.Guna2CircleProgressBar9.TabIndex = 0
+        Me.Guna2CircleProgressBar9.Text = "Guna2CircleProgressBar1"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.BackColor = System.Drawing.Color.Transparent
+        Me.Label26.Font = New System.Drawing.Font("Tahoma", 11.0!)
+        Me.Label26.ForeColor = System.Drawing.Color.Gray
+        Me.Label26.Location = New System.Drawing.Point(810, 105)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(68, 18)
+        Me.Label26.TabIndex = 2
+        Me.Label26.Text = "End Year"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.BackColor = System.Drawing.Color.Transparent
+        Me.Label27.Font = New System.Drawing.Font("Tahoma", 11.0!)
+        Me.Label27.ForeColor = System.Drawing.Color.Gray
+        Me.Label27.Location = New System.Drawing.Point(815, 80)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(61, 18)
+        Me.Label27.TabIndex = 2
+        Me.Label27.Text = "اخر العام"
+        '
+        'Guna2Panel4
+        '
+        Me.Guna2Panel4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Guna2Panel4.BorderRadius = 15
+        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel27)
+        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel25)
+        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel23)
+        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel26)
+        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel24)
+        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel22)
+        Me.Guna2Panel4.Controls.Add(Me.Guna2Separator8)
+        Me.Guna2Panel4.Controls.Add(Me.Guna2Separator7)
+        Me.Guna2Panel4.Controls.Add(Me.Guna2Separator5)
+        Me.Guna2Panel4.Controls.Add(Me.Label28)
+        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel21)
+        Me.Guna2Panel4.FillColor = System.Drawing.Color.White
+        Me.Guna2Panel4.Location = New System.Drawing.Point(18, 478)
+        Me.Guna2Panel4.Name = "Guna2Panel4"
+        Me.Guna2Panel4.Size = New System.Drawing.Size(271, 180)
+        Me.Guna2Panel4.TabIndex = 6
+        '
+        'Label28
+        '
+        Me.Label28.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label28.AutoSize = True
+        Me.Label28.BackColor = System.Drawing.Color.Transparent
+        Me.Label28.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Label28.Location = New System.Drawing.Point(170, 21)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(91, 18)
+        Me.Label28.TabIndex = 2
+        Me.Label28.Text = "الدعم الفنى"
+        '
+        'Guna2HtmlLabel21
+        '
+        Me.Guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel21.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2HtmlLabel21.Location = New System.Drawing.Point(7, 21)
+        Me.Guna2HtmlLabel21.Name = "Guna2HtmlLabel21"
+        Me.Guna2HtmlLabel21.Size = New System.Drawing.Size(135, 20)
+        Me.Guna2HtmlLabel21.TabIndex = 0
+        Me.Guna2HtmlLabel21.Text = "Technical support"
+        '
+        'Guna2Separator5
+        '
+        Me.Guna2Separator5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Separator5.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2Separator5.Location = New System.Drawing.Point(10, 46)
+        Me.Guna2Separator5.Name = "Guna2Separator5"
+        Me.Guna2Separator5.Size = New System.Drawing.Size(249, 10)
+        Me.Guna2Separator5.TabIndex = 5
+        '
+        'Guna2HtmlLabel22
+        '
+        Me.Guna2HtmlLabel22.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2HtmlLabel22.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel22.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2HtmlLabel22.ForeColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.Guna2HtmlLabel22.Location = New System.Drawing.Point(171, 58)
+        Me.Guna2HtmlLabel22.Name = "Guna2HtmlLabel22"
+        Me.Guna2HtmlLabel22.Size = New System.Drawing.Size(83, 21)
+        Me.Guna2HtmlLabel22.TabIndex = 6
+        Me.Guna2HtmlLabel22.Text = "00000000"
+        '
+        'Guna2HtmlLabel23
+        '
+        Me.Guna2HtmlLabel23.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2HtmlLabel23.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel23.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2HtmlLabel23.ForeColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.Guna2HtmlLabel23.Location = New System.Drawing.Point(38, 58)
+        Me.Guna2HtmlLabel23.Name = "Guna2HtmlLabel23"
+        Me.Guna2HtmlLabel23.Size = New System.Drawing.Size(50, 21)
+        Me.Guna2HtmlLabel23.TabIndex = 6
+        Me.Guna2HtmlLabel23.Text = "Name"
+        '
+        'Guna2Separator7
+        '
+        Me.Guna2Separator7.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Separator7.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2Separator7.Location = New System.Drawing.Point(10, 85)
+        Me.Guna2Separator7.Name = "Guna2Separator7"
+        Me.Guna2Separator7.Size = New System.Drawing.Size(249, 10)
+        Me.Guna2Separator7.TabIndex = 5
+        '
+        'Guna2HtmlLabel24
+        '
+        Me.Guna2HtmlLabel24.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2HtmlLabel24.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel24.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2HtmlLabel24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.Guna2HtmlLabel24.Location = New System.Drawing.Point(171, 101)
+        Me.Guna2HtmlLabel24.Name = "Guna2HtmlLabel24"
+        Me.Guna2HtmlLabel24.Size = New System.Drawing.Size(83, 21)
+        Me.Guna2HtmlLabel24.TabIndex = 6
+        Me.Guna2HtmlLabel24.Text = "00000000"
+        '
+        'Guna2HtmlLabel25
+        '
+        Me.Guna2HtmlLabel25.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2HtmlLabel25.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel25.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2HtmlLabel25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.Guna2HtmlLabel25.Location = New System.Drawing.Point(38, 101)
+        Me.Guna2HtmlLabel25.Name = "Guna2HtmlLabel25"
+        Me.Guna2HtmlLabel25.Size = New System.Drawing.Size(50, 21)
+        Me.Guna2HtmlLabel25.TabIndex = 6
+        Me.Guna2HtmlLabel25.Text = "Name"
+        '
+        'Guna2Separator8
+        '
+        Me.Guna2Separator8.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Separator8.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2Separator8.Location = New System.Drawing.Point(10, 128)
+        Me.Guna2Separator8.Name = "Guna2Separator8"
+        Me.Guna2Separator8.Size = New System.Drawing.Size(249, 10)
+        Me.Guna2Separator8.TabIndex = 5
+        '
+        'Guna2HtmlLabel26
+        '
+        Me.Guna2HtmlLabel26.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2HtmlLabel26.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel26.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2HtmlLabel26.ForeColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.Guna2HtmlLabel26.Location = New System.Drawing.Point(171, 144)
+        Me.Guna2HtmlLabel26.Name = "Guna2HtmlLabel26"
+        Me.Guna2HtmlLabel26.Size = New System.Drawing.Size(83, 21)
+        Me.Guna2HtmlLabel26.TabIndex = 6
+        Me.Guna2HtmlLabel26.Text = "00000000"
+        '
+        'Guna2HtmlLabel27
+        '
+        Me.Guna2HtmlLabel27.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2HtmlLabel27.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel27.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2HtmlLabel27.ForeColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.Guna2HtmlLabel27.Location = New System.Drawing.Point(38, 144)
+        Me.Guna2HtmlLabel27.Name = "Guna2HtmlLabel27"
+        Me.Guna2HtmlLabel27.Size = New System.Drawing.Size(50, 21)
+        Me.Guna2HtmlLabel27.TabIndex = 6
+        Me.Guna2HtmlLabel27.Text = "Name"
         '
         'FrmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(1117, 603)
+        Me.ClientSize = New System.Drawing.Size(1117, 670)
+        Me.Controls.Add(Me.Guna2Panel4)
         Me.Controls.Add(Me.Guna2Panel3)
         Me.Controls.Add(Me.Guna2GradientPanel3)
         Me.Controls.Add(Me.Guna2GradientPanel2)
@@ -922,6 +1500,9 @@ Partial Class FrmMain
         Me.Guna2GradientPanel3.ResumeLayout(False)
         Me.Guna2GradientPanel3.PerformLayout()
         Me.Guna2Panel3.ResumeLayout(False)
+        Me.Guna2Panel3.PerformLayout()
+        Me.Guna2Panel4.ResumeLayout(False)
+        Me.Guna2Panel4.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -983,8 +1564,43 @@ Partial Class FrmMain
     Friend WithEvents Label11 As Label
     Friend WithEvents Guna2HtmlLabel20 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2ProgressBar2 As Guna.UI2.WinForms.Guna2ProgressBar
     Friend WithEvents Guna2CircleProgressBar2 As Guna.UI2.WinForms.Guna2CircleProgressBar
     Friend WithEvents Guna2ProgressBar1 As Guna.UI2.WinForms.Guna2ProgressBar
     Friend WithEvents Guna2CircleProgressBar1 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Guna2CircleProgressBar4 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Guna2CircleProgressBar3 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Guna2ProgressBar4 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar3 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar2 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Guna2CircleProgressBar5 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Guna2CircleProgressBar9 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Guna2CircleProgressBar8 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Guna2CircleProgressBar7 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Guna2HtmlLabel21 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel25 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel23 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel24 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel22 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2Separator7 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Guna2Separator5 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Guna2HtmlLabel27 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel26 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2Separator8 As Guna.UI2.WinForms.Guna2Separator
 End Class
