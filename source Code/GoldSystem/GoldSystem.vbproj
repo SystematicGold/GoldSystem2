@@ -180,5 +180,8 @@
   <ItemGroup>
     <None Include="Resources\work_pack_white-01.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar_chart_90px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
