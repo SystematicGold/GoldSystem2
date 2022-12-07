@@ -106,7 +106,7 @@ namespace API.Data.migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("NumberPieces")
+                    b.Property<int>("NumberPieces")
                         .HasColumnType("int");
 
                     b.Property<byte[]>("Photo")
@@ -158,7 +158,7 @@ namespace API.Data.migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("NumberPieces")
+                    b.Property<int>("NumberPieces")
                         .HasColumnType("int");
 
                     b.Property<byte[]>("Photo")
@@ -176,6 +176,25 @@ namespace API.Data.migrations
                     b.HasKey("Id");
 
                     b.ToTable("Category");
+                });
+
+            modelBuilder.Entity("API.Entities.KartItem", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("Name")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("KartItems");
                 });
 
             modelBuilder.Entity("API.Entities.StoneCategoris", b =>
@@ -208,8 +227,17 @@ namespace API.Data.migrations
                     b.Property<long>("CategoriesCode")
                         .HasColumnType("bigint");
 
+                    b.Property<string>("Colour")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("Price")
+                        .HasColumnType("bigint");
+
                     b.Property<long>("StoneCode")
                         .HasColumnType("bigint");
+
+                    b.Property<float>("Weight")
+                        .HasColumnType("real");
 
                     b.HasKey("Id");
 
@@ -236,7 +264,7 @@ namespace API.Data.migrations
                     b.Property<byte[]>("PasswordSalt")
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<int?>("SavedLogin")
+                    b.Property<int>("SavedLogin")
                         .HasColumnType("int");
 
                     b.Property<long?>("UserCode")

@@ -11,5 +11,6 @@ namespace API.Data
         public DbSet<StoneItemCategories> StoneItemCategory { get; set; }
         public DbSet<AnotherAnotherCategories> AnotherAnotherCategory { get; set; }
         public DbSet<AnotherPieces> AnotherPiece { get; set; }
+        public DbSet<KartItem> KartItems { get; set; }
     }
 }

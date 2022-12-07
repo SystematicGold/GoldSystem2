@@ -129,3 +129,4 @@ C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.res
 C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.exe.licenses
 C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmSales.resources
 C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmAddCat.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmAdderItem.resources

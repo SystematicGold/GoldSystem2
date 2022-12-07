@@ -107,10 +107,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gold\Cls\ClsGoldItem.vb" />
     <Compile Include="Gold\Forms\FrmAddCat.Designer.vb">
       <DependentUpon>FrmAddCat.vb</DependentUpon>
     </Compile>
     <Compile Include="Gold\Forms\FrmAddCat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmAdderItem.Designer.vb">
+      <DependentUpon>FrmAdderItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmAdderItem.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gold\Forms\FrmGold.Designer.vb">
@@ -178,6 +185,9 @@
     <EmbeddedResource Include="Gold\Forms\FrmAddCat.resx">
       <DependentUpon>FrmAddCat.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\FrmAdderItem.resx">
+      <DependentUpon>FrmAdderItem.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\FrmGold.resx">
       <DependentUpon>FrmGold.vb</DependentUpon>
     </EmbeddedResource>
@@ -223,7 +233,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Gold\Cls\" />
     <Folder Include="Gold\Reports\" />
     <Folder Include="Main\Cls\" />
   </ItemGroup>
