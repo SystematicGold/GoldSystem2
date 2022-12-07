@@ -9,6 +9,6 @@ namespace API.Entities
     {
         public int Id { get; set; }
         public int Code { get; set; } = 0;
-        public string? Name { get; set; }
+        public string Name { get; set; }
     }
 }

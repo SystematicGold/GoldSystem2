@@ -10,20 +10,28 @@ Public Class FrmMain
   End Sub
   Private Sub FrmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
     Try
-      WebBrowser1.Navigate("http://goldpricez.com/kw/18k/gram")
-    Catch ex As Exception
+            'WebBrowser1.Navigate("http://goldpricez.com/kw/18k/gram")
+        Catch ex As Exception
       MessageBox.Show(ex.ToString())
     End Try
   End Sub
-  Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
-    Try
-      Dim T0 As String = "gold_price_table"
-      Dim K18 As String
-      Guna2TextBox1.Text = WebBrowser1.Document.GetElementById("gold_price_table").InnerText
+    Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs)
+        Try
+            'Dim T0 As String = "gold_price_table"
+            'Dim K18 As String
+            'Guna2TextBox1.Text = WebBrowser1.Document.GetElementById("gold_price_table").InnerText
 
 
-    Catch ex As Exception
-      MessageBox.Show(ex.ToString())
-    End Try
-  End Sub
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString())
+        End Try
+    End Sub
+    Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
+        Try
+            Dim F As New FrmGold
+            F.show()
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString())
+        End Try
+    End Sub
 End Class

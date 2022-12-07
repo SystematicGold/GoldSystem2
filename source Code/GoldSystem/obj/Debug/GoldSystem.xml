@@ -27,6 +27,11 @@ GoldSystem
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:GoldSystem.My.Resources.Resources.download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:GoldSystem.My.Resources.Resources.notification_90px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

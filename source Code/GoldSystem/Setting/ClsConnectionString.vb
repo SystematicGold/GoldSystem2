@@ -2,8 +2,8 @@ Imports System.Data.SqlClient
 Public Class ClsConnectionString
   Dim SQLCON_TELE As New SqlConnection
   Sub New()
-    SQLCON_TELE = New SqlConnection("Server = 192.168.30.151,1433; initial catalog = GoldDB; user ID = sa; password = Admin@123")
-  End Sub
+        SQLCON_TELE = New SqlConnection("Server = .\GOLD; initial catalog = GoldDB; user ID = sa; password = Admin@123")
+    End Sub
   Public Sub OPEN_CON()
     If SQLCON_TELE.State = ConnectionState.Closed Then
       SQLCON_TELE.Open()
