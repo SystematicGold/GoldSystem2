@@ -61,7 +61,8 @@
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
         Try
             Dim f As New FrmAdderItem
-            f.TxtCode.text = TxtCode.Text
+            f.TxtCode.Text = TxtCode.Text
+            f.TxtBarCode.Text = TxtBarCode.Text
             f.showdialog()
         Catch ex As Exception
             MessageBox.Show(ex.ToString)

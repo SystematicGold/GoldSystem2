@@ -36,7 +36,7 @@ Partial Class FrmAdderItem
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TxtBarCode = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TxtCode = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -194,15 +194,15 @@ Partial Class FrmAdderItem
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Name - اسم الصنف"
         '
-        'TextBox2
+        'TxtBarCode
         '
-        Me.TextBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox2.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox2.Location = New System.Drawing.Point(230, 31)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TextBox2.Size = New System.Drawing.Size(199, 27)
-        Me.TextBox2.TabIndex = 21
+        Me.TxtBarCode.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtBarCode.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.TxtBarCode.Location = New System.Drawing.Point(230, 31)
+        Me.TxtBarCode.Name = "TxtBarCode"
+        Me.TxtBarCode.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TxtBarCode.Size = New System.Drawing.Size(199, 27)
+        Me.TxtBarCode.TabIndex = 21
         '
         'Label2
         '
@@ -328,7 +328,7 @@ Partial Class FrmAdderItem
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TxtBarCode)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TxtCode)
         Me.Controls.Add(Me.Label1)
@@ -356,7 +356,7 @@ Partial Class FrmAdderItem
     Friend WithEvents Label4 As Label
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TxtBarCode As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents TxtCode As TextBox
     Friend WithEvents Label1 As Label
