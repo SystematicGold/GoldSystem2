@@ -23,18 +23,18 @@ Partial Class FrmAdderItem
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.ComKart = New System.Windows.Forms.ComboBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TxtCostGram = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.TxtPeace = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TxtCost = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TxtMade = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TxtWeight = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TxtName = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TxtBarCode = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -57,15 +57,17 @@ Partial Class FrmAdderItem
         Me.ComKart.Size = New System.Drawing.Size(199, 27)
         Me.ComKart.TabIndex = 24
         '
-        'TextBox8
+        'TxtCostGram
         '
-        Me.TextBox8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox8.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox8.Location = New System.Drawing.Point(230, 137)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TextBox8.Size = New System.Drawing.Size(199, 27)
-        Me.TextBox8.TabIndex = 22
+        Me.TxtCostGram.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtCostGram.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.TxtCostGram.Location = New System.Drawing.Point(230, 137)
+        Me.TxtCostGram.Name = "TxtCostGram"
+        Me.TxtCostGram.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TxtCostGram.Size = New System.Drawing.Size(199, 27)
+        Me.TxtCostGram.TabIndex = 22
+        Me.TxtCostGram.Text = "0"
+        Me.TxtCostGram.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label8
         '
@@ -78,15 +80,17 @@ Partial Class FrmAdderItem
         Me.Label8.TabIndex = 13
         Me.Label8.Text = "Cost/Geram - تكلفة الجرام"
         '
-        'TextBox11
+        'TxtPeace
         '
-        Me.TextBox11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox11.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox11.Location = New System.Drawing.Point(25, 137)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TextBox11.Size = New System.Drawing.Size(199, 27)
-        Me.TextBox11.TabIndex = 19
+        Me.TxtPeace.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtPeace.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.TxtPeace.Location = New System.Drawing.Point(25, 137)
+        Me.TxtPeace.Name = "TxtPeace"
+        Me.TxtPeace.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TxtPeace.Size = New System.Drawing.Size(199, 27)
+        Me.TxtPeace.TabIndex = 19
+        Me.TxtPeace.Text = "0"
+        Me.TxtPeace.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label11
         '
@@ -99,15 +103,17 @@ Partial Class FrmAdderItem
         Me.Label11.TabIndex = 12
         Me.Label11.Text = "Number Pieces - عدد القطع"
         '
-        'TextBox7
+        'TxtCost
         '
-        Me.TextBox7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox7.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox7.Location = New System.Drawing.Point(435, 137)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TextBox7.Size = New System.Drawing.Size(199, 27)
-        Me.TextBox7.TabIndex = 14
+        Me.TxtCost.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtCost.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.TxtCost.Location = New System.Drawing.Point(435, 137)
+        Me.TxtCost.Name = "TxtCost"
+        Me.TxtCost.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TxtCost.Size = New System.Drawing.Size(199, 27)
+        Me.TxtCost.TabIndex = 14
+        Me.TxtCost.Text = "0"
+        Me.TxtCost.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label7
         '
@@ -116,19 +122,21 @@ Partial Class FrmAdderItem
         Me.Label7.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.Label7.Location = New System.Drawing.Point(527, 115)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(107, 19)
+        Me.Label7.Size = New System.Drawing.Size(103, 19)
         Me.Label7.TabIndex = 3
-        Me.Label7.Text = "Cost - االتكلفة"
+        Me.Label7.Text = "Cost - التكلفة"
         '
-        'TextBox6
+        'TxtMade
         '
-        Me.TextBox6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox6.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox6.Location = New System.Drawing.Point(25, 83)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TextBox6.Size = New System.Drawing.Size(199, 27)
-        Me.TextBox6.TabIndex = 16
+        Me.TxtMade.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtMade.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.TxtMade.Location = New System.Drawing.Point(25, 83)
+        Me.TxtMade.Name = "TxtMade"
+        Me.TxtMade.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TxtMade.Size = New System.Drawing.Size(199, 27)
+        Me.TxtMade.TabIndex = 16
+        Me.TxtMade.Text = "0"
+        Me.TxtMade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label6
         '
@@ -141,15 +149,17 @@ Partial Class FrmAdderItem
         Me.Label6.TabIndex = 8
         Me.Label6.Text = "Made in - المصنعية"
         '
-        'TextBox5
+        'TxtWeight
         '
-        Me.TextBox5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox5.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox5.Location = New System.Drawing.Point(230, 83)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TextBox5.Size = New System.Drawing.Size(199, 27)
-        Me.TextBox5.TabIndex = 18
+        Me.TxtWeight.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtWeight.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.TxtWeight.Location = New System.Drawing.Point(230, 83)
+        Me.TxtWeight.Name = "TxtWeight"
+        Me.TxtWeight.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TxtWeight.Size = New System.Drawing.Size(199, 27)
+        Me.TxtWeight.TabIndex = 18
+        Me.TxtWeight.Text = "0"
+        Me.TxtWeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label5
         '
@@ -173,15 +183,16 @@ Partial Class FrmAdderItem
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Kart - العيار"
         '
-        'TextBox3
+        'TxtName
         '
-        Me.TextBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox3.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox3.Location = New System.Drawing.Point(25, 31)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TextBox3.Size = New System.Drawing.Size(199, 27)
-        Me.TextBox3.TabIndex = 20
+        Me.TxtName.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtName.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.TxtName.Location = New System.Drawing.Point(25, 31)
+        Me.TxtName.Name = "TxtName"
+        Me.TxtName.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TxtName.Size = New System.Drawing.Size(199, 27)
+        Me.TxtName.TabIndex = 20
+        Me.TxtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
@@ -203,6 +214,7 @@ Partial Class FrmAdderItem
         Me.TxtBarCode.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtBarCode.Size = New System.Drawing.Size(199, 27)
         Me.TxtBarCode.TabIndex = 21
+        Me.TxtBarCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
@@ -225,6 +237,8 @@ Partial Class FrmAdderItem
         Me.TxtCode.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtCode.Size = New System.Drawing.Size(199, 27)
         Me.TxtCode.TabIndex = 15
+        Me.TxtCode.Text = "0"
+        Me.TxtCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label1
         '
@@ -315,18 +329,18 @@ Partial Class FrmAdderItem
         Me.Controls.Add(Me.Guna2Button1)
         Me.Controls.Add(Me.Guna2Button2)
         Me.Controls.Add(Me.ComKart)
-        Me.Controls.Add(Me.TextBox8)
+        Me.Controls.Add(Me.TxtCostGram)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox11)
+        Me.Controls.Add(Me.TxtPeace)
         Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.TxtCost)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.TxtMade)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.TxtWeight)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TxtName)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TxtBarCode)
         Me.Controls.Add(Me.Label2)
@@ -343,18 +357,18 @@ Partial Class FrmAdderItem
     End Sub
 
     Friend WithEvents ComKart As ComboBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents TxtCostGram As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents TxtPeace As TextBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents TxtCost As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents TxtMade As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents TxtWeight As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TxtName As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents TxtBarCode As TextBox
     Friend WithEvents Label2 As Label

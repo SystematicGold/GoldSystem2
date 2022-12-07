@@ -63,7 +63,10 @@
             Dim f As New FrmAdderItem
             f.TxtCode.Text = TxtCode.Text
             f.TxtBarCode.Text = TxtBarCode.Text
-            f.showdialog()
+            f.ShowDialog()
+            If f.IsYes = True Then
+
+            End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try

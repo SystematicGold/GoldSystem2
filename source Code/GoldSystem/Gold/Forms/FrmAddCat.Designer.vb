@@ -32,6 +32,7 @@ Partial Class FrmAddCat
         Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmAddCat))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TxtCode = New System.Windows.Forms.TextBox()
         Me.ComStone = New System.Windows.Forms.ComboBox()
@@ -81,8 +82,20 @@ Partial Class FrmAddCat
         Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
+        Me.PictureEdit3 = New DevExpress.XtraEditors.PictureEdit()
+        Me.PictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
+        Me.PictureEdit2 = New DevExpress.XtraEditors.PictureEdit()
+        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
+        Me.PictureEdit4 = New DevExpress.XtraEditors.PictureEdit()
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DgvAdderItem, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -174,7 +187,7 @@ Partial Class FrmAddCat
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox4.Location = New System.Drawing.Point(49, 595)
+        Me.TextBox4.Location = New System.Drawing.Point(5, 568)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextBox4.Size = New System.Drawing.Size(199, 27)
@@ -352,7 +365,7 @@ Partial Class FrmAddCat
         'Guna2VSeparator1
         '
         Me.Guna2VSeparator1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2VSeparator1.Location = New System.Drawing.Point(703, 13)
+        Me.Guna2VSeparator1.Location = New System.Drawing.Point(700, 13)
         Me.Guna2VSeparator1.Name = "Guna2VSeparator1"
         Me.Guna2VSeparator1.Size = New System.Drawing.Size(15, 566)
         Me.Guna2VSeparator1.TabIndex = 3
@@ -627,12 +640,168 @@ Partial Class FrmAddCat
         Me.Column7.Name = "Column7"
         Me.Column7.ReadOnly = True
         '
+        'Guna2Button3
+        '
+        Me.Guna2Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2Button3.BorderRadius = 10
+        Me.Guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button3.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2Button3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2Button3.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button3.Location = New System.Drawing.Point(536, 630)
+        Me.Guna2Button3.Name = "Guna2Button3"
+        Me.Guna2Button3.Size = New System.Drawing.Size(174, 67)
+        Me.Guna2Button3.TabIndex = 5
+        Me.Guna2Button3.Text = "New - جديد"
+        Me.Guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Guna2Button4
+        '
+        Me.Guna2Button4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2Button4.BorderRadius = 10
+        Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button4.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2Button4.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button4.Location = New System.Drawing.Point(356, 630)
+        Me.Guna2Button4.Name = "Guna2Button4"
+        Me.Guna2Button4.Size = New System.Drawing.Size(174, 67)
+        Me.Guna2Button4.TabIndex = 5
+        Me.Guna2Button4.Text = "Save - حفظ"
+        Me.Guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Guna2Button5
+        '
+        Me.Guna2Button5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2Button5.BorderRadius = 10
+        Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button5.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2Button5.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button5.Location = New System.Drawing.Point(176, 630)
+        Me.Guna2Button5.Name = "Guna2Button5"
+        Me.Guna2Button5.Size = New System.Drawing.Size(174, 67)
+        Me.Guna2Button5.TabIndex = 5
+        Me.Guna2Button5.Text = "Edit - تعديل"
+        Me.Guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'PictureEdit3
+        '
+        Me.PictureEdit3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureEdit3.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit3.EditValue = CType(resources.GetObject("PictureEdit3.EditValue"), Object)
+        Me.PictureEdit3.Location = New System.Drawing.Point(540, 640)
+        Me.PictureEdit3.Name = "PictureEdit3"
+        Me.PictureEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.PictureEdit3.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
+        Me.PictureEdit3.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
+        Me.PictureEdit3.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
+        Me.PictureEdit3.Properties.Appearance.Options.UseBackColor = True
+        Me.PictureEdit3.Properties.Appearance.Options.UseBorderColor = True
+        Me.PictureEdit3.Properties.Appearance.Options.UseForeColor = True
+        Me.PictureEdit3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.PictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit3.Size = New System.Drawing.Size(49, 47)
+        Me.PictureEdit3.TabIndex = 8
+        '
+        'PictureEdit1
+        '
+        Me.PictureEdit1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit1.EditValue = CType(resources.GetObject("PictureEdit1.EditValue"), Object)
+        Me.PictureEdit1.Location = New System.Drawing.Point(356, 640)
+        Me.PictureEdit1.Name = "PictureEdit1"
+        Me.PictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.PictureEdit1.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
+        Me.PictureEdit1.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
+        Me.PictureEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
+        Me.PictureEdit1.Properties.Appearance.Options.UseBackColor = True
+        Me.PictureEdit1.Properties.Appearance.Options.UseBorderColor = True
+        Me.PictureEdit1.Properties.Appearance.Options.UseForeColor = True
+        Me.PictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.PictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit1.Size = New System.Drawing.Size(49, 47)
+        Me.PictureEdit1.TabIndex = 9
+        '
+        'PictureEdit2
+        '
+        Me.PictureEdit2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureEdit2.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit2.EditValue = CType(resources.GetObject("PictureEdit2.EditValue"), Object)
+        Me.PictureEdit2.Location = New System.Drawing.Point(176, 640)
+        Me.PictureEdit2.Name = "PictureEdit2"
+        Me.PictureEdit2.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.PictureEdit2.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
+        Me.PictureEdit2.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
+        Me.PictureEdit2.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
+        Me.PictureEdit2.Properties.Appearance.Options.UseBackColor = True
+        Me.PictureEdit2.Properties.Appearance.Options.UseBorderColor = True
+        Me.PictureEdit2.Properties.Appearance.Options.UseForeColor = True
+        Me.PictureEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.PictureEdit2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit2.Size = New System.Drawing.Size(49, 47)
+        Me.PictureEdit2.TabIndex = 10
+        '
+        'Guna2Button6
+        '
+        Me.Guna2Button6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2Button6.BorderRadius = 10
+        Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button6.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2Button6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2Button6.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button6.Location = New System.Drawing.Point(5, 630)
+        Me.Guna2Button6.Name = "Guna2Button6"
+        Me.Guna2Button6.Size = New System.Drawing.Size(165, 67)
+        Me.Guna2Button6.TabIndex = 5
+        Me.Guna2Button6.Text = "Cancel - الغاء"
+        Me.Guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'PictureEdit4
+        '
+        Me.PictureEdit4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureEdit4.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit4.EditValue = CType(resources.GetObject("PictureEdit4.EditValue"), Object)
+        Me.PictureEdit4.Location = New System.Drawing.Point(5, 640)
+        Me.PictureEdit4.Name = "PictureEdit4"
+        Me.PictureEdit4.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.PictureEdit4.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
+        Me.PictureEdit4.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
+        Me.PictureEdit4.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
+        Me.PictureEdit4.Properties.Appearance.Options.UseBackColor = True
+        Me.PictureEdit4.Properties.Appearance.Options.UseBorderColor = True
+        Me.PictureEdit4.Properties.Appearance.Options.UseForeColor = True
+        Me.PictureEdit4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.PictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit4.Size = New System.Drawing.Size(49, 47)
+        Me.PictureEdit4.TabIndex = 10
+        '
         'FrmAddCat
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(935, 699)
+        Me.Controls.Add(Me.PictureEdit4)
+        Me.Controls.Add(Me.PictureEdit2)
+        Me.Controls.Add(Me.PictureEdit1)
+        Me.Controls.Add(Me.PictureEdit3)
+        Me.Controls.Add(Me.Guna2Button6)
+        Me.Controls.Add(Me.Guna2Button5)
+        Me.Controls.Add(Me.Guna2Button4)
+        Me.Controls.Add(Me.Guna2Button3)
         Me.Controls.Add(Me.Guna2Button2)
         Me.Controls.Add(Me.Guna2Button1)
         Me.Controls.Add(Me.DgvAdderItem)
@@ -676,6 +845,10 @@ Partial Class FrmAddCat
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DgvAdderItem, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -730,4 +903,12 @@ Partial Class FrmAddCat
     Friend WithEvents DataGridViewTextBoxColumn5 As DataGridViewTextBoxColumn
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents Column7 As DataGridViewTextBoxColumn
+    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents PictureEdit3 As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents PictureEdit1 As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents PictureEdit2 As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents PictureEdit4 As DevExpress.XtraEditors.PictureEdit
 End Class

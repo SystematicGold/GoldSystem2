@@ -180,6 +180,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Setting\ClsConnectionString.vb" />
+    <Compile Include="Setting\Settings.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Gold\Forms\FrmAddCat.resx">
