@@ -34,4 +34,32 @@ Public Class FrmMain
             MessageBox.Show(ex.ToString())
         End Try
     End Sub
+    Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton2.Click
+        Dim f As New XtraReport1
+
+    End Sub
+
+    Private Sub PictureEdit1_Click(sender As Object, e As EventArgs)
+        Try
+            Guna2Panel7.Hide()
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub PictureEdit2_Click(sender As Object, e As EventArgs)
+        Try
+            'Guna2Panel6.Size.Width = 10.0
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Guna2GradientButton4_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton4.Click
+
+    End Sub
+
+    Private Sub Guna2GradientButton5_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton5.Click
+
+    End Sub
 End Class

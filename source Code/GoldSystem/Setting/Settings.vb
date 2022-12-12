@@ -1,7 +1,7 @@
 ﻿Module Settings
     Public Sub NumberOnly(sender As Object, e As KeyPressEventArgs)
         Try
-            If Not Char.IsDigit(e.KeyChar) Then
+            If Char.IsNumber(e.KeyChar) = False And e.KeyChar <> "." Then
                 e.Handled = True
                 MessageBox.Show("ارقام فقط")
             End If

@@ -1,5 +1,6 @@
 ﻿Public Class FrmAddCat
     Dim ClsItem As New ClsGoldItem
+    Dim counter As Integer = 0
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         Try
             If ComStone.Text = String.Empty Then
@@ -14,7 +15,8 @@
                 MessageBox.Show("يجب ادخال السعر")
                 Return
             End If
-            Dim row As String() = New String() {ComStone.SelectedValue,
+            counter += 1
+            Dim row As String() = New String() {ComStone.SelectedValue, counter,
                                                   ComStone.Text,
                                                   TxtStoneWeight.Text,
                                                   TxtStoneColor.Text, TxtStonePrice.Text}
@@ -65,7 +67,15 @@
             f.TxtBarCode.Text = TxtBarCode.Text
             f.ShowDialog()
             If f.IsYes = True Then
-
+                Dim row As String() = New String() {f.TxtBarCode.Text,
+                                                 f.TxtName.Text,
+                                                 f.ComKart.SelectedValue,
+                                                 f.TxtWeight.Text,
+                                                 f.TxtMade.Text,
+                                                 f.TxtCost.Text,
+                                                 f.TxtCostGram.Text,
+                                                 f.TxtPeace.Text}
+                DgvAdderItem.Rows.Add(row)
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
@@ -83,6 +93,13 @@
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
+        End Try
+    End Sub
+    Private Sub DgvStone_AllowUserToAddRowsChanged(sender As Object, e As EventArgs) Handles DgvStone.AllowUserToAddRowsChanged
+        Try
+            'For i As Integer = 0 To 
+        Catch ex As Exception
+
         End Try
     End Sub
 End Class
