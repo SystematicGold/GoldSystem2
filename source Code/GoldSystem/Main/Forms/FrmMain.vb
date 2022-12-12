@@ -20,8 +20,6 @@ Public Class FrmMain
       Dim T0 As String = "gold_price_table"
       Dim K18 As String
       Guna2TextBox1.Text = WebBrowser1.Document.GetElementById("gold_price_table").InnerText
-
-
     Catch ex As Exception
       MessageBox.Show(ex.ToString())
     End Try
