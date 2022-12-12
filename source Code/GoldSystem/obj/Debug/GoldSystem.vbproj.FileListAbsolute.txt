@@ -449,3 +449,4 @@ D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.Diagram.v17.1.
 D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
 D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
 D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmMaxmizeGold.resources

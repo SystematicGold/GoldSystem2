@@ -28,20 +28,14 @@ Partial Class FrmMain
     Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
     Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
     Me.Guna2VSeparator1 = New Guna.UI2.WinForms.Guna2VSeparator()
-    Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
     Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2VSeparator2 = New Guna.UI2.WinForms.Guna2VSeparator()
-    Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
     Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
     Me.Guna2NotificationPaint1 = New Guna.UI2.WinForms.Guna2NotificationPaint(Me.components)
     Me.Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-    Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-    Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
-    Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-    Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+    Me.SettingMenu = New Guna.UI2.WinForms.Guna2Panel()
     Me.Guna2HtmlLabel6 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Label1 = New System.Windows.Forms.Label()
     Me.Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -116,8 +110,6 @@ Partial Class FrmMain
     Me.Guna2HtmlLabel21 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
     Me.Guna2VSeparator3 = New Guna.UI2.WinForms.Guna2VSeparator()
-    Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-    Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
     Me.Guna2HtmlLabel29 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2HtmlLabel41 = New Guna.UI2.WinForms.Guna2HtmlLabel()
     Me.Guna2HtmlLabel40 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -161,12 +153,10 @@ Partial Class FrmMain
     Me.Guna2Separator9 = New Guna.UI2.WinForms.Guna2Separator()
     Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
     Me.PanalGold = New Guna.UI2.WinForms.Guna2Panel()
-    Me.PictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
     Me.PanelAll = New Guna.UI2.WinForms.Guna2Panel()
     Me.Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
     Me.Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
     Me.Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
-    Me.GunaPictureBox1 = New Guna.UI.WinForms.GunaPictureBox()
     Me.Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
     Me.Guna2GradientButton7 = New Guna.UI2.WinForms.Guna2GradientButton()
     Me.Guna2GradientButton8 = New Guna.UI2.WinForms.Guna2GradientButton()
@@ -182,9 +172,19 @@ Partial Class FrmMain
     Me.Guna2GradientButton18 = New Guna.UI2.WinForms.Guna2GradientButton()
     Me.Guna2GradientButton19 = New Guna.UI2.WinForms.Guna2GradientButton()
     Me.Guna2GradientButton20 = New Guna.UI2.WinForms.Guna2GradientButton()
+    Me.Guna2GradientButton21 = New Guna.UI2.WinForms.Guna2GradientButton()
+    Me.Guna2GradientButton22 = New Guna.UI2.WinForms.Guna2GradientButton()
+    Me.Guna2GradientButton23 = New Guna.UI2.WinForms.Guna2GradientButton()
+    Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+    Me.GunaPictureBox1 = New Guna.UI.WinForms.GunaPictureBox()
+    Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
+    Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
+    Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
+    Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+    Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
+    Me.PictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
     Me.Guna2Panel1.SuspendLayout()
-    CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-    Me.Guna2Panel2.SuspendLayout()
+    Me.SettingMenu.SuspendLayout()
     Me.Guna2GradientPanel1.SuspendLayout()
     Me.Guna2GradientPanel2.SuspendLayout()
     Me.Guna2GradientPanel3.SuspendLayout()
@@ -193,9 +193,10 @@ Partial Class FrmMain
     Me.Guna2Panel5.SuspendLayout()
     Me.Guna2Panel6.SuspendLayout()
     Me.PanalGold.SuspendLayout()
-    CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
     Me.PanelAll.SuspendLayout()
     CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+    CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+    CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
     Me.SuspendLayout()
     '
     'Guna2GradientButton2
@@ -203,6 +204,7 @@ Partial Class FrmMain
     Me.Guna2GradientButton2.Animated = True
     Me.Guna2GradientButton2.AutoRoundedCorners = True
     Me.Guna2GradientButton2.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2GradientButton2.BorderRadius = 21
     Me.Guna2GradientButton2.CustomizableEdges.BottomLeft = False
     Me.Guna2GradientButton2.CustomizableEdges.TopLeft = False
     Me.Guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -229,6 +231,7 @@ Partial Class FrmMain
     Me.Guna2GradientButton1.Animated = True
     Me.Guna2GradientButton1.AutoRoundedCorners = True
     Me.Guna2GradientButton1.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2GradientButton1.BorderRadius = 21
     Me.Guna2GradientButton1.CustomizableEdges.BottomLeft = False
     Me.Guna2GradientButton1.CustomizableEdges.TopLeft = False
     Me.Guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -277,27 +280,6 @@ Partial Class FrmMain
     Me.Guna2VSeparator1.Size = New System.Drawing.Size(10, 26)
     Me.Guna2VSeparator1.TabIndex = 2
     '
-    'Guna2CircleButton2
-    '
-    Me.Guna2CircleButton2.Animated = True
-    Me.Guna2CircleButton2.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2CircleButton2.BorderColor = System.Drawing.Color.White
-    Me.Guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2CircleButton2.FillColor = System.Drawing.Color.White
-    Me.Guna2CircleButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2CircleButton2.ForeColor = System.Drawing.Color.White
-    Me.Guna2CircleButton2.Image = Global.GoldSystem.My.Resources.Resources.notification_90px1
-    Me.Guna2CircleButton2.ImageSize = New System.Drawing.Size(28, 28)
-    Me.Guna2CircleButton2.Location = New System.Drawing.Point(71, 3)
-    Me.Guna2CircleButton2.Name = "Guna2CircleButton2"
-    Me.Guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-    Me.Guna2CircleButton2.Size = New System.Drawing.Size(37, 37)
-    Me.Guna2CircleButton2.TabIndex = 2
-    Me.Guna2CircleButton2.UseTransparentBackground = True
-    '
     'Guna2HtmlLabel2
     '
     Me.Guna2HtmlLabel2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -329,19 +311,6 @@ Partial Class FrmMain
     Me.Guna2VSeparator2.Size = New System.Drawing.Size(10, 26)
     Me.Guna2VSeparator2.TabIndex = 2
     '
-    'Guna2CirclePictureBox1
-    '
-    Me.Guna2CirclePictureBox1.FillColor = System.Drawing.Color.Black
-    Me.Guna2CirclePictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Profile_Male_PNG
-    Me.Guna2CirclePictureBox1.ImageRotate = 0!
-    Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(126, 3)
-    Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
-    Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-    Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(37, 37)
-    Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-    Me.Guna2CirclePictureBox1.TabIndex = 2
-    Me.Guna2CirclePictureBox1.TabStop = False
-    '
     'Guna2HtmlLabel3
     '
     Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
@@ -352,27 +321,6 @@ Partial Class FrmMain
     Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(87, 18)
     Me.Guna2HtmlLabel3.TabIndex = 0
     Me.Guna2HtmlLabel3.Text = "Admin Admin"
-    '
-    'Guna2CircleButton1
-    '
-    Me.Guna2CircleButton1.Animated = True
-    Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2CircleButton1.BorderColor = System.Drawing.Color.White
-    Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2CircleButton1.FillColor = System.Drawing.Color.White
-    Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
-    Me.Guna2CircleButton1.Image = Global.GoldSystem.My.Resources.Resources.settings_90px
-    Me.Guna2CircleButton1.ImageSize = New System.Drawing.Size(28, 28)
-    Me.Guna2CircleButton1.Location = New System.Drawing.Point(12, 3)
-    Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
-    Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-    Me.Guna2CircleButton1.Size = New System.Drawing.Size(37, 37)
-    Me.Guna2CircleButton1.TabIndex = 2
-    Me.Guna2CircleButton1.UseTransparentBackground = True
     '
     'Guna2NotificationPaint1
     '
@@ -404,78 +352,19 @@ Partial Class FrmMain
     Me.Guna2HtmlLabel5.TabIndex = 0
     Me.Guna2HtmlLabel5.Text = "Your setting are all set."
     '
-    'Guna2Panel2
+    'SettingMenu
     '
-    Me.Guna2Panel2.BackColor = System.Drawing.Color.Transparent
-    Me.Guna2Panel2.BorderRadius = 10
-    Me.Guna2Panel2.Controls.Add(Me.Guna2Button3)
-    Me.Guna2Panel2.Controls.Add(Me.Guna2Button2)
-    Me.Guna2Panel2.Controls.Add(Me.Guna2Button1)
-    Me.Guna2Panel2.FillColor = System.Drawing.Color.White
-    Me.Guna2Panel2.Location = New System.Drawing.Point(12, 60)
-    Me.Guna2Panel2.Name = "Guna2Panel2"
-    Me.Guna2Panel2.Size = New System.Drawing.Size(254, 48)
-    Me.Guna2Panel2.TabIndex = 2
-    '
-    'Guna2Button3
-    '
-    Me.Guna2Button3.BorderRadius = 7
-    Me.Guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-    Me.Guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2Button3.FillColor = System.Drawing.Color.White
-    Me.Guna2Button3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2Button3.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2Button3.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2Button3.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-    Me.Guna2Button3.HoverState.ForeColor = System.Drawing.Color.White
-    Me.Guna2Button3.Location = New System.Drawing.Point(170, 8)
-    Me.Guna2Button3.Name = "Guna2Button3"
-    Me.Guna2Button3.Size = New System.Drawing.Size(76, 32)
-    Me.Guna2Button3.TabIndex = 3
-    Me.Guna2Button3.Text = "Day"
-    '
-    'Guna2Button2
-    '
-    Me.Guna2Button2.BorderRadius = 7
-    Me.Guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-    Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2Button2.FillColor = System.Drawing.Color.White
-    Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2Button2.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2Button2.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-    Me.Guna2Button2.HoverState.ForeColor = System.Drawing.Color.White
-    Me.Guna2Button2.Location = New System.Drawing.Point(88, 8)
-    Me.Guna2Button2.Name = "Guna2Button2"
-    Me.Guna2Button2.Size = New System.Drawing.Size(76, 32)
-    Me.Guna2Button2.TabIndex = 3
-    Me.Guna2Button2.Text = "Week"
-    '
-    'Guna2Button1
-    '
-    Me.Guna2Button1.BorderRadius = 7
-    Me.Guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-    Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2Button1.FillColor = System.Drawing.Color.White
-    Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2Button1.ForeColor = System.Drawing.Color.Gray
-    Me.Guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2Button1.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-    Me.Guna2Button1.HoverState.ForeColor = System.Drawing.Color.White
-    Me.Guna2Button1.Location = New System.Drawing.Point(6, 8)
-    Me.Guna2Button1.Name = "Guna2Button1"
-    Me.Guna2Button1.Size = New System.Drawing.Size(76, 32)
-    Me.Guna2Button1.TabIndex = 3
-    Me.Guna2Button1.Text = "Month"
+    Me.SettingMenu.BackColor = System.Drawing.Color.Transparent
+    Me.SettingMenu.BorderRadius = 10
+    Me.SettingMenu.Controls.Add(Me.Guna2GradientButton23)
+    Me.SettingMenu.Controls.Add(Me.Guna2GradientButton22)
+    Me.SettingMenu.Controls.Add(Me.Guna2GradientButton21)
+    Me.SettingMenu.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+    Me.SettingMenu.Location = New System.Drawing.Point(0, 44)
+    Me.SettingMenu.Name = "SettingMenu"
+    Me.SettingMenu.Size = New System.Drawing.Size(202, 10)
+    Me.SettingMenu.TabIndex = 2
+    Me.SettingMenu.Visible = False
     '
     'Guna2HtmlLabel6
     '
@@ -1524,42 +1413,6 @@ Partial Class FrmMain
     Me.Guna2VSeparator3.Size = New System.Drawing.Size(10, 236)
     Me.Guna2VSeparator3.TabIndex = 2
     '
-    'Guna2Button5
-    '
-    Me.Guna2Button5.Animated = True
-    Me.Guna2Button5.BorderRadius = 5
-    Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2Button5.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-    Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2Button5.ForeColor = System.Drawing.Color.White
-    Me.Guna2Button5.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
-    Me.Guna2Button5.Location = New System.Drawing.Point(188, 11)
-    Me.Guna2Button5.Name = "Guna2Button5"
-    Me.Guna2Button5.Size = New System.Drawing.Size(30, 30)
-    Me.Guna2Button5.TabIndex = 0
-    Me.Guna2Button5.UseTransparentBackground = True
-    '
-    'Guna2Button4
-    '
-    Me.Guna2Button4.Animated = True
-    Me.Guna2Button4.BorderRadius = 5
-    Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-    Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-    Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-    Me.Guna2Button4.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(242, Byte), Integer))
-    Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-    Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-    Me.Guna2Button4.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
-    Me.Guna2Button4.Location = New System.Drawing.Point(23, 11)
-    Me.Guna2Button4.Name = "Guna2Button4"
-    Me.Guna2Button4.Size = New System.Drawing.Size(30, 30)
-    Me.Guna2Button4.TabIndex = 0
-    Me.Guna2Button4.UseTransparentBackground = True
-    '
     'Guna2HtmlLabel29
     '
     Me.Guna2HtmlLabel29.BackColor = System.Drawing.Color.Transparent
@@ -2230,21 +2083,6 @@ Partial Class FrmMain
     Me.PanalGold.Size = New System.Drawing.Size(200, 737)
     Me.PanalGold.TabIndex = 8
     '
-    'PictureEdit1
-    '
-    Me.PictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
-    Me.PictureEdit1.EditValue = CType(resources.GetObject("PictureEdit1.EditValue"), Object)
-    Me.PictureEdit1.Location = New System.Drawing.Point(0, 2)
-    Me.PictureEdit1.Name = "PictureEdit1"
-    Me.PictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-    Me.PictureEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.White
-    Me.PictureEdit1.Properties.Appearance.Options.UseBackColor = True
-    Me.PictureEdit1.Properties.Appearance.Options.UseForeColor = True
-    Me.PictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-    Me.PictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-    Me.PictureEdit1.Size = New System.Drawing.Size(40, 39)
-    Me.PictureEdit1.TabIndex = 7
-    '
     'PanelAll
     '
     Me.PanelAll.Controls.Add(Me.Guna2GradientButton1)
@@ -2263,6 +2101,7 @@ Partial Class FrmMain
     Me.Guna2GradientButton5.Animated = True
     Me.Guna2GradientButton5.AutoRoundedCorners = True
     Me.Guna2GradientButton5.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2GradientButton5.BorderRadius = 21
     Me.Guna2GradientButton5.CustomizableEdges.BottomLeft = False
     Me.Guna2GradientButton5.CustomizableEdges.TopLeft = False
     Me.Guna2GradientButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -2289,6 +2128,7 @@ Partial Class FrmMain
     Me.Guna2GradientButton4.Animated = True
     Me.Guna2GradientButton4.AutoRoundedCorners = True
     Me.Guna2GradientButton4.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2GradientButton4.BorderRadius = 21
     Me.Guna2GradientButton4.CustomizableEdges.BottomLeft = False
     Me.Guna2GradientButton4.CustomizableEdges.TopLeft = False
     Me.Guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -2315,6 +2155,7 @@ Partial Class FrmMain
     Me.Guna2GradientButton3.Animated = True
     Me.Guna2GradientButton3.AutoRoundedCorners = True
     Me.Guna2GradientButton3.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2GradientButton3.BorderRadius = 21
     Me.Guna2GradientButton3.CustomizableEdges.BottomLeft = False
     Me.Guna2GradientButton3.CustomizableEdges.TopLeft = False
     Me.Guna2GradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -2335,18 +2176,6 @@ Partial Class FrmMain
     Me.Guna2GradientButton3.Size = New System.Drawing.Size(184, 44)
     Me.Guna2GradientButton3.TabIndex = 6
     Me.Guna2GradientButton3.Text = "المشغولات الالماسية"
-    '
-    'GunaPictureBox1
-    '
-    Me.GunaPictureBox1.BaseColor = System.Drawing.Color.White
-    Me.GunaPictureBox1.ErrorImage = Global.GoldSystem.My.Resources.Resources.Screenshot_819
-    Me.GunaPictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Screenshot_819
-    Me.GunaPictureBox1.Location = New System.Drawing.Point(47, 26)
-    Me.GunaPictureBox1.Name = "GunaPictureBox1"
-    Me.GunaPictureBox1.Size = New System.Drawing.Size(126, 43)
-    Me.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-    Me.GunaPictureBox1.TabIndex = 1
-    Me.GunaPictureBox1.TabStop = False
     '
     'Guna2GradientButton6
     '
@@ -2618,12 +2447,188 @@ Partial Class FrmMain
     Me.Guna2GradientButton20.TabIndex = 8
     Me.Guna2GradientButton20.Text = "الارشيف"
     '
+    'Guna2GradientButton21
+    '
+    Me.Guna2GradientButton21.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2GradientButton21.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2GradientButton21.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2GradientButton21.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2GradientButton21.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2GradientButton21.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+    Me.Guna2GradientButton21.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+    Me.Guna2GradientButton21.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+    Me.Guna2GradientButton21.ForeColor = System.Drawing.Color.White
+    Me.Guna2GradientButton21.Location = New System.Drawing.Point(3, 13)
+    Me.Guna2GradientButton21.Name = "Guna2GradientButton21"
+    Me.Guna2GradientButton21.ShadowDecoration.Enabled = True
+    Me.Guna2GradientButton21.Size = New System.Drawing.Size(199, 40)
+    Me.Guna2GradientButton21.TabIndex = 8
+    Me.Guna2GradientButton21.Text = "التجديد"
+    '
+    'Guna2GradientButton22
+    '
+    Me.Guna2GradientButton22.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2GradientButton22.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2GradientButton22.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2GradientButton22.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2GradientButton22.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2GradientButton22.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+    Me.Guna2GradientButton22.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+    Me.Guna2GradientButton22.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+    Me.Guna2GradientButton22.ForeColor = System.Drawing.Color.White
+    Me.Guna2GradientButton22.Location = New System.Drawing.Point(2, 58)
+    Me.Guna2GradientButton22.Name = "Guna2GradientButton22"
+    Me.Guna2GradientButton22.ShadowDecoration.Enabled = True
+    Me.Guna2GradientButton22.Size = New System.Drawing.Size(199, 40)
+    Me.Guna2GradientButton22.TabIndex = 8
+    Me.Guna2GradientButton22.Text = "الاعدادات"
+    '
+    'Guna2GradientButton23
+    '
+    Me.Guna2GradientButton23.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2GradientButton23.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2GradientButton23.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2GradientButton23.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2GradientButton23.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2GradientButton23.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+    Me.Guna2GradientButton23.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+    Me.Guna2GradientButton23.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+    Me.Guna2GradientButton23.ForeColor = System.Drawing.Color.White
+    Me.Guna2GradientButton23.Location = New System.Drawing.Point(3, 103)
+    Me.Guna2GradientButton23.Name = "Guna2GradientButton23"
+    Me.Guna2GradientButton23.ShadowDecoration.Enabled = True
+    Me.Guna2GradientButton23.Size = New System.Drawing.Size(199, 40)
+    Me.Guna2GradientButton23.TabIndex = 8
+    Me.Guna2GradientButton23.Text = "اخرى"
+    '
+    'Timer1
+    '
+    '
+    'GunaPictureBox1
+    '
+    Me.GunaPictureBox1.BaseColor = System.Drawing.Color.White
+    Me.GunaPictureBox1.ErrorImage = Global.GoldSystem.My.Resources.Resources.Screenshot_819
+    Me.GunaPictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Screenshot_819
+    Me.GunaPictureBox1.Location = New System.Drawing.Point(47, 26)
+    Me.GunaPictureBox1.Name = "GunaPictureBox1"
+    Me.GunaPictureBox1.Size = New System.Drawing.Size(126, 43)
+    Me.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+    Me.GunaPictureBox1.TabIndex = 1
+    Me.GunaPictureBox1.TabStop = False
+    '
+    'Guna2Button5
+    '
+    Me.Guna2Button5.Animated = True
+    Me.Guna2Button5.BorderRadius = 5
+    Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2Button5.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+    Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+    Me.Guna2Button5.ForeColor = System.Drawing.Color.White
+    Me.Guna2Button5.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
+    Me.Guna2Button5.Location = New System.Drawing.Point(188, 11)
+    Me.Guna2Button5.Name = "Guna2Button5"
+    Me.Guna2Button5.Size = New System.Drawing.Size(30, 30)
+    Me.Guna2Button5.TabIndex = 0
+    Me.Guna2Button5.UseTransparentBackground = True
+    '
+    'Guna2Button4
+    '
+    Me.Guna2Button4.Animated = True
+    Me.Guna2Button4.BorderRadius = 5
+    Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2Button4.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(242, Byte), Integer))
+    Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+    Me.Guna2Button4.ForeColor = System.Drawing.Color.White
+    Me.Guna2Button4.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
+    Me.Guna2Button4.Location = New System.Drawing.Point(23, 11)
+    Me.Guna2Button4.Name = "Guna2Button4"
+    Me.Guna2Button4.Size = New System.Drawing.Size(30, 30)
+    Me.Guna2Button4.TabIndex = 0
+    Me.Guna2Button4.UseTransparentBackground = True
+    '
+    'Guna2CircleButton2
+    '
+    Me.Guna2CircleButton2.Animated = True
+    Me.Guna2CircleButton2.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2CircleButton2.BorderColor = System.Drawing.Color.White
+    Me.Guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2CircleButton2.FillColor = System.Drawing.Color.White
+    Me.Guna2CircleButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+    Me.Guna2CircleButton2.ForeColor = System.Drawing.Color.White
+    Me.Guna2CircleButton2.Image = Global.GoldSystem.My.Resources.Resources.notification_90px1
+    Me.Guna2CircleButton2.ImageSize = New System.Drawing.Size(28, 28)
+    Me.Guna2CircleButton2.Location = New System.Drawing.Point(71, 3)
+    Me.Guna2CircleButton2.Name = "Guna2CircleButton2"
+    Me.Guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+    Me.Guna2CircleButton2.Size = New System.Drawing.Size(37, 37)
+    Me.Guna2CircleButton2.TabIndex = 2
+    Me.Guna2CircleButton2.UseTransparentBackground = True
+    '
+    'Guna2CirclePictureBox1
+    '
+    Me.Guna2CirclePictureBox1.FillColor = System.Drawing.Color.Black
+    Me.Guna2CirclePictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Profile_Male_PNG
+    Me.Guna2CirclePictureBox1.ImageRotate = 0!
+    Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(126, 3)
+    Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
+    Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+    Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(37, 37)
+    Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+    Me.Guna2CirclePictureBox1.TabIndex = 2
+    Me.Guna2CirclePictureBox1.TabStop = False
+    '
+    'Guna2CircleButton1
+    '
+    Me.Guna2CircleButton1.Animated = True
+    Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
+    Me.Guna2CircleButton1.BorderColor = System.Drawing.Color.White
+    Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+    Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+    Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+    Me.Guna2CircleButton1.FillColor = System.Drawing.Color.White
+    Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+    Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
+    Me.Guna2CircleButton1.Image = Global.GoldSystem.My.Resources.Resources.settings_90px
+    Me.Guna2CircleButton1.ImageSize = New System.Drawing.Size(28, 28)
+    Me.Guna2CircleButton1.Location = New System.Drawing.Point(12, 3)
+    Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
+    Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+    Me.Guna2CircleButton1.Size = New System.Drawing.Size(37, 37)
+    Me.Guna2CircleButton1.TabIndex = 2
+    Me.Guna2CircleButton1.UseTransparentBackground = True
+    '
+    'PictureEdit1
+    '
+    Me.PictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
+    Me.PictureEdit1.EditValue = CType(resources.GetObject("PictureEdit1.EditValue"), Object)
+    Me.PictureEdit1.Location = New System.Drawing.Point(0, 2)
+    Me.PictureEdit1.Name = "PictureEdit1"
+    Me.PictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+    Me.PictureEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.White
+    Me.PictureEdit1.Properties.Appearance.Options.UseBackColor = True
+    Me.PictureEdit1.Properties.Appearance.Options.UseForeColor = True
+    Me.PictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+    Me.PictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+    Me.PictureEdit1.Size = New System.Drawing.Size(40, 39)
+    Me.PictureEdit1.TabIndex = 7
+    '
     'FrmMain
     '
     Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
     Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
     Me.BackColor = System.Drawing.SystemColors.Control
     Me.ClientSize = New System.Drawing.Size(1117, 779)
+    Me.Controls.Add(Me.SettingMenu)
     Me.Controls.Add(Me.Guna2Panel6)
     Me.Controls.Add(Me.Guna2Panel5)
     Me.Controls.Add(Me.Guna2Panel4)
@@ -2631,7 +2636,6 @@ Partial Class FrmMain
     Me.Controls.Add(Me.Guna2GradientPanel3)
     Me.Controls.Add(Me.Guna2GradientPanel2)
     Me.Controls.Add(Me.Guna2GradientPanel1)
-    Me.Controls.Add(Me.Guna2Panel2)
     Me.Controls.Add(Me.Guna2Panel1)
     Me.Controls.Add(Me.Guna2HtmlLabel4)
     Me.Controls.Add(Me.Guna2HtmlLabel5)
@@ -2640,8 +2644,7 @@ Partial Class FrmMain
     Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
     Me.Guna2Panel1.ResumeLayout(False)
     Me.Guna2Panel1.PerformLayout()
-    CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-    Me.Guna2Panel2.ResumeLayout(False)
+    Me.SettingMenu.ResumeLayout(False)
     Me.Guna2GradientPanel1.ResumeLayout(False)
     Me.Guna2GradientPanel1.PerformLayout()
     Me.Guna2GradientPanel2.ResumeLayout(False)
@@ -2656,9 +2659,10 @@ Partial Class FrmMain
     Me.Guna2Panel5.PerformLayout()
     Me.Guna2Panel6.ResumeLayout(False)
     Me.PanalGold.ResumeLayout(False)
-    CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
     Me.PanelAll.ResumeLayout(False)
     CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+    CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+    CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
     Me.ResumeLayout(False)
     Me.PerformLayout()
 
@@ -2678,134 +2682,130 @@ Partial Class FrmMain
     Friend WithEvents Guna2NotificationPaint1 As Guna.UI2.WinForms.Guna2NotificationPaint
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2HtmlLabel6 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Guna2HtmlLabel10 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel9 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel8 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel11 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel7 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel14 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel13 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel12 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
-    Friend WithEvents Guna2Separator3 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2Separator2 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Guna2GradientPanel2 As Guna.UI2.WinForms.Guna2GradientPanel
-    Friend WithEvents Guna2Separator6 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Guna2HtmlLabel15 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel16 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Guna2HtmlLabel17 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2GradientPanel3 As Guna.UI2.WinForms.Guna2GradientPanel
-    Friend WithEvents Guna2Separator4 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Guna2HtmlLabel18 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel19 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Guna2HtmlLabel20 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2CircleProgressBar2 As Guna.UI2.WinForms.Guna2CircleProgressBar
-    Friend WithEvents Guna2ProgressBar1 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2CircleProgressBar1 As Guna.UI2.WinForms.Guna2CircleProgressBar
-    Friend WithEvents Guna2CircleProgressBar4 As Guna.UI2.WinForms.Guna2CircleProgressBar
-    Friend WithEvents Guna2CircleProgressBar3 As Guna.UI2.WinForms.Guna2CircleProgressBar
-    Friend WithEvents Guna2ProgressBar4 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar3 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar2 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Label16 As Label
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Label17 As Label
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label20 As Label
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label18 As Label
-    Friend WithEvents Guna2CircleProgressBar5 As Guna.UI2.WinForms.Guna2CircleProgressBar
-    Friend WithEvents Label21 As Label
-    Friend WithEvents Label25 As Label
-    Friend WithEvents Label24 As Label
-    Friend WithEvents Label23 As Label
-    Friend WithEvents Label22 As Label
-    Friend WithEvents Label27 As Label
-    Friend WithEvents Label26 As Label
-    Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label28 As Label
-    Friend WithEvents Guna2HtmlLabel21 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel25 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel23 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel22 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Separator7 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2Separator5 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2HtmlLabel27 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel26 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Separator8 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2HtmlLabel29 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel28 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2ProgressBar6 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar5 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar8 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar7 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar28 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar27 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar20 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar19 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar26 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar12 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar18 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar25 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar11 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar17 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar24 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar16 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar23 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar10 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar15 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar22 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar14 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar21 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar9 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2ProgressBar13 As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents Guna2HtmlLabel41 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel40 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel38 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel37 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel35 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel39 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel34 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel36 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel32 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel33 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel31 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel30 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel42 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2VSeparator3 As Guna.UI2.WinForms.Guna2VSeparator
-    Friend WithEvents Guna2HtmlLabel43 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Separator9 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2GradientButton5 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton4 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2HtmlLabel24 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents PanelAll As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents SettingMenu As Guna.UI2.WinForms.Guna2Panel
+  Friend WithEvents Guna2HtmlLabel6 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Label1 As Label
+  Friend WithEvents Label5 As Label
+  Friend WithEvents Label4 As Label
+  Friend WithEvents Label3 As Label
+  Friend WithEvents Label2 As Label
+  Friend WithEvents Guna2HtmlLabel10 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel9 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel8 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel11 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel7 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel14 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel13 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel12 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
+  Friend WithEvents Guna2Separator3 As Guna.UI2.WinForms.Guna2Separator
+  Friend WithEvents Guna2Separator2 As Guna.UI2.WinForms.Guna2Separator
+  Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
+  Friend WithEvents Label6 As Label
+  Friend WithEvents Guna2GradientPanel2 As Guna.UI2.WinForms.Guna2GradientPanel
+  Friend WithEvents Guna2Separator6 As Guna.UI2.WinForms.Guna2Separator
+  Friend WithEvents Label8 As Label
+  Friend WithEvents Label9 As Label
+  Friend WithEvents Guna2HtmlLabel15 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel16 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Label12 As Label
+  Friend WithEvents Guna2HtmlLabel17 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2GradientPanel3 As Guna.UI2.WinForms.Guna2GradientPanel
+  Friend WithEvents Guna2Separator4 As Guna.UI2.WinForms.Guna2Separator
+  Friend WithEvents Label7 As Label
+  Friend WithEvents Label10 As Label
+  Friend WithEvents Guna2HtmlLabel18 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel19 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Label11 As Label
+  Friend WithEvents Guna2HtmlLabel20 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
+  Friend WithEvents Guna2CircleProgressBar2 As Guna.UI2.WinForms.Guna2CircleProgressBar
+  Friend WithEvents Guna2ProgressBar1 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2CircleProgressBar1 As Guna.UI2.WinForms.Guna2CircleProgressBar
+  Friend WithEvents Guna2CircleProgressBar4 As Guna.UI2.WinForms.Guna2CircleProgressBar
+  Friend WithEvents Guna2CircleProgressBar3 As Guna.UI2.WinForms.Guna2CircleProgressBar
+  Friend WithEvents Guna2ProgressBar4 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar3 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar2 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Label16 As Label
+  Friend WithEvents Label15 As Label
+  Friend WithEvents Label14 As Label
+  Friend WithEvents Label17 As Label
+  Friend WithEvents Label13 As Label
+  Friend WithEvents Label20 As Label
+  Friend WithEvents Label19 As Label
+  Friend WithEvents Label18 As Label
+  Friend WithEvents Guna2CircleProgressBar5 As Guna.UI2.WinForms.Guna2CircleProgressBar
+  Friend WithEvents Label21 As Label
+  Friend WithEvents Label25 As Label
+  Friend WithEvents Label24 As Label
+  Friend WithEvents Label23 As Label
+  Friend WithEvents Label22 As Label
+  Friend WithEvents Label27 As Label
+  Friend WithEvents Label26 As Label
+  Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
+  Friend WithEvents Label28 As Label
+  Friend WithEvents Guna2HtmlLabel21 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel25 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel23 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel22 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2Separator7 As Guna.UI2.WinForms.Guna2Separator
+  Friend WithEvents Guna2Separator5 As Guna.UI2.WinForms.Guna2Separator
+  Friend WithEvents Guna2HtmlLabel27 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel26 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2Separator8 As Guna.UI2.WinForms.Guna2Separator
+  Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
+  Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
+  Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
+  Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
+  Friend WithEvents Guna2HtmlLabel29 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel28 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2ProgressBar6 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar5 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar8 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar7 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar28 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar27 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar20 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar19 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar26 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar12 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar18 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar25 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar11 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar17 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar24 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar16 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar23 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar10 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar15 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar22 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar14 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar21 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar9 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2ProgressBar13 As Guna.UI2.WinForms.Guna2ProgressBar
+  Friend WithEvents Guna2HtmlLabel41 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel40 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel38 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel37 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel35 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel39 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel34 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel36 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel32 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel33 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel31 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel30 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2HtmlLabel42 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2VSeparator3 As Guna.UI2.WinForms.Guna2VSeparator
+  Friend WithEvents Guna2HtmlLabel43 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents Guna2Separator9 As Guna.UI2.WinForms.Guna2Separator
+  Friend WithEvents Guna2GradientButton5 As Guna.UI2.WinForms.Guna2GradientButton
+  Friend WithEvents Guna2GradientButton4 As Guna.UI2.WinForms.Guna2GradientButton
+  Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
+  Friend WithEvents Guna2HtmlLabel24 As Guna.UI2.WinForms.Guna2HtmlLabel
+  Friend WithEvents PanelAll As Guna.UI2.WinForms.Guna2Panel
   Friend WithEvents PanalGold As Guna.UI2.WinForms.Guna2Panel
-  Friend WithEvents PictureEdit1 As DevExpress.XtraEditors.PictureEdit
   Friend WithEvents Guna2GradientButton13 As Guna.UI2.WinForms.Guna2GradientButton
   Friend WithEvents Guna2GradientButton12 As Guna.UI2.WinForms.Guna2GradientButton
   Friend WithEvents Guna2GradientButton11 As Guna.UI2.WinForms.Guna2GradientButton
@@ -2821,4 +2821,9 @@ Partial Class FrmMain
   Friend WithEvents Guna2GradientButton19 As Guna.UI2.WinForms.Guna2GradientButton
   Friend WithEvents Guna2GradientButton18 As Guna.UI2.WinForms.Guna2GradientButton
   Friend WithEvents Guna2GradientButton17 As Guna.UI2.WinForms.Guna2GradientButton
+  Friend WithEvents Guna2GradientButton23 As Guna.UI2.WinForms.Guna2GradientButton
+  Friend WithEvents Guna2GradientButton22 As Guna.UI2.WinForms.Guna2GradientButton
+  Friend WithEvents Guna2GradientButton21 As Guna.UI2.WinForms.Guna2GradientButton
+  Friend WithEvents Timer1 As Timer
+  Friend WithEvents PictureEdit1 As DevExpress.XtraEditors.PictureEdit
 End Class

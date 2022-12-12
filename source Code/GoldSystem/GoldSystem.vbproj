@@ -182,6 +182,12 @@
     <Compile Include="Main\Forms\FrmMain.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Main\Forms\FrmMaxmizeGold.Designer.vb">
+      <DependentUpon>FrmMaxmizeGold.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Forms\FrmMaxmizeGold.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -233,6 +239,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Forms\FrmMain.resx">
       <DependentUpon>FrmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Forms\FrmMaxmizeGold.resx">
+      <DependentUpon>FrmMaxmizeGold.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
