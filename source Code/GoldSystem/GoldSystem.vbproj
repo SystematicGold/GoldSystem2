@@ -51,15 +51,37 @@
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>..\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="FontAwesome.Sharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net45\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI">
       <HintPath>..\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.5\lib\net40\Guna.UI2.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="RestSharp, Version=106.5.4.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
       <HintPath>..\packages\RestSharp.106.5.4\lib\net452\RestSharp.dll</HintPath>
     </Reference>
@@ -67,17 +89,21 @@
       <HintPath>..\packages\RestSharp.Newtonsoft.Json.1.5.1\lib\net452\RestSharp.Serializers.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -93,6 +119,49 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gold\Cls\ClsGoldItem.vb" />
+    <Compile Include="Gold\Forms\FrmAddCat.Designer.vb">
+      <DependentUpon>FrmAddCat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmAddCat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmAdderItem.Designer.vb">
+      <DependentUpon>FrmAdderItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmAdderItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmGold.Designer.vb">
+      <DependentUpon>FrmGold.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmGold.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmPrintBarCode.Designer.vb">
+      <DependentUpon>FrmPrintBarCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmPrintBarCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmPurchases.Designer.vb">
+      <DependentUpon>FrmPurchases.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmPurchases.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmSales.Designer.vb">
+      <DependentUpon>FrmSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Reports\XtraReport1.Designer.vb">
+      <DependentUpon>XtraReport1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Reports\XtraReport1.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Login\Cls\ClsLogin.vb" />
     <Compile Include="Login\Forms\FrmLogin.vb">
       <SubType>Form</SubType>
@@ -129,8 +198,24 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Setting\ClsConnectionString.vb" />
+    <Compile Include="Setting\Settings.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Gold\Forms\FrmAddCat.resx">
+      <DependentUpon>FrmAddCat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\FrmAdderItem.resx">
+      <DependentUpon>FrmAdderItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\FrmGold.resx">
+      <DependentUpon>FrmGold.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\FrmSales.resx">
+      <DependentUpon>FrmSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Reports\XtraReport1.resx">
+      <DependentUpon>XtraReport1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login\Forms\FrmLogin.ar.resx">
       <DependentUpon>FrmLogin.vb</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +234,7 @@
     <EmbeddedResource Include="Main\Forms\FrmMain.resx">
       <DependentUpon>FrmMain.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -192,6 +278,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bar_chart_90px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
